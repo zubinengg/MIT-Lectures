@@ -1,0 +1,546 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.26)  20 OCT 2023 09:46
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/DiR(T)/OneDrive/General Relativity/MIT Lectures/Reference.tex"
+(c:/Users/DiR(T)/OneDrive/General Relativity/MIT Lectures/Reference.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-04-20> (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
+(d:/TeXLive/texlive/2023/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (d:/TeXLive/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2023/04/18 3.88 The Babel package
+\babel@savecnt=\count194
+\U@D=\dimen141
+\l@unhyphenated=\language87
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count195
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 108.
+)) (d:/TeXLive/texlive/2023/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)) (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count196
+\c@Blindtext=\count197
+\c@blind@countparstart=\count198
+\blind@countxx=\count199
+\blindtext@numBlindtext=\count266
+\blind@countyy=\count267
+\c@blindlist=\count268
+\c@blindlistlevel=\count269
+\c@blindlist@level=\count270
+\blind@listitem=\count271
+\c@blind@listcount=\count272
+\c@blind@levelcount=\count273
+\blind@mathformula=\count274
+\blind@Mathformula=\count275
+\c@blind@randomcount=\count276
+\c@blind@randommax=\count277
+\c@blind@pangramcount=\count278
+\c@blind@pangrammax=\count279
+) (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+) (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen144
+\WF@size=\dimen145
+\c@WF@wrappedlines=\count280
+\WF@box=\box51
+\WF@everypar=\toks17
+Package: wrapfig 2003/01/31  v 3.6
+) (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip50
+\enit@outerparindent=\dimen146
+\enit@toks=\toks18
+\enit@inbox=\box52
+\enit@count@id=\count281
+\enitdp@description=\count282
+) (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+) (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+(d:/TeXLive/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen147
+)) (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen148
+) (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count283
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count284
+\leftroot@=\count285
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count286
+\DOTSCASE@=\count287
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen149
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count288
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count289
+\dotsspace@=\muskip16
+\c@parentequation=\count290
+\dspbrk@lvl=\count291
+\tag@help=\toks20
+\row@=\count292
+\column@=\count293
+\maxfields@=\count294
+\andhelp@=\toks21
+\eqnshift@=\dimen150
+\alignsep@=\dimen151
+\tagshift@=\dimen152
+\tagwidth@=\dimen153
+\totwidth@=\dimen154
+\lineht@=\dimen155
+\@envbody=\toks22
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/index/index.sty
+Package: index 2004/01/20 v4.2beta Improved index support (dmj)
+\@indexbox=\insert252
+\indexproofstyle=\toks24
+
+
+LaTeX Warning: Command \markboth  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \markright  has changed.
+               Check if current package is valid.
+
+)
+\idxtitle@default=\toks25
+\tf@default=\write3
+\openout3 = `Reference.idx'.
+
+Package index Info: Writing index file Reference.idx on input line 94.
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count295
+\l__pdf_internal_box=\box55
+) (./Reference.aux)
+\openout1 = `Reference.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count296
+\scratchdimen=\dimen156
+\scratchbox=\box56
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen157
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks27
+) (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) [1
+
+
+{d:/TeXLive/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+No file Reference.toc.
+\tf@toc=\write4
+\openout4 = `Reference.toc'.
+
+[2
+
+]
+Chapter 1.
+[3
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4{d:/TeXLive/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+LaTeX Warning: File `pic.png' not found on input line 169.
+
+
+c:/Users/DiR(T)/OneDrive/General Relativity/MIT Lectures/Reference.tex:169: Package pdftex.def Error: File `pic.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \includegraphics[width=8cm]{pic.png}
+                                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+
+LaTeX Warning: File `pic.png' not found on input line 193.
+
+
+c:/Users/DiR(T)/OneDrive/General Relativity/MIT Lectures/Reference.tex:193: Package pdftex.def Error: File `pic.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.193 ...ncludegraphics[width=\linewidth]{pic.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 214.
+(d:/TeXLive/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 214.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 335.
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 335.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 15.89755pt on input line 370.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/scsl' undefined
+(Font)              using `OT1/cmr/m/sc' instead on input line 372.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8{d:/TeXLive/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--419
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
+
+ []
+
+
+Overfull \hbox (23.09822pt too wide) in paragraph at lines 440--443
+[]\OT1/phv/m/n/12 Operators $[]\OML/cmm/m/it/12 ; []; []; []; []; []; []; []; []; []; []; []; []; [] 
+ []
+
+
+Overfull \hbox (33.33708pt too wide) in paragraph at lines 440--443
+[]\OML/cmm/m/it/12 ; []; []; []; []; []; []; []; []; []; []; []; []; []; []; []; []; []$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--443
+
+ []
+
+
+Overfull \hbox (1.75468pt too wide) in paragraph at lines 444--447
+[]\OT1/phv/m/n/12 Arrows $\OMS/cmsy/m/n/12  \OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 (\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 !\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 )\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 $\OML/cmm/m/it/12 ; []; \OMS/cmsy/m/n/12 "\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 #\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 *\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 +\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ,\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 m\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 7!\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 7[][]!\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 %\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 &\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 .\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 -\OML/cmm/m/it/12 ; (; *; )
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--447
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--453
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 11.03998pt on input line 458.
+
+Underfull \vbox (badness 1558) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+Underfull \hbox (badness 6268) in paragraph at lines 475--475
+[]\OT1/phv/m/n/12 I used to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
+\OT1/phv/m/n/12 in-de-ci-sive,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
+\OT1/phv/m/n/12 but now
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
+[]\OT1/phv/m/n/12 Always
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
+\OT1/phv/m/n/12 re-mem-ber
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 477--477
+\OT1/phv/m/n/12 that you're
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
+\OT1/phv/m/n/12 unique.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
+\OT1/phv/m/n/12 Just like
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+
+ []
+
+
+LaTeX Warning: Reference `sec:typeemp' on page 10 undefined on input line 500.
+
+
+LaTeX Warning: Reference `sec:typeemp' on page 10 undefined on input line 500.
+
+
+LaTeX Warning: Reference `fig:prettypic' on page 10 undefined on input line 501.
+
+
+LaTeX Warning: Reference `fig:prettypic' on page 10 undefined on input line 501.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--502
+
+ []
+
+
+LaTeX Warning: Citation `ABCAFR' on page 10 undefined on input line 504.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 507.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 11.03998pt on input line 507.
+ [11
+
+]
+No file Reference.ind.
+(./Reference.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4148 strings out of 476001
+ 68017 string characters out of 5789205
+ 1866068 words of memory out of 5000000
+ 24560 multiletter control sequences out of 15000+600000
+ 528490 words of font info for 72 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,12n,62p,264b,413s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Reference.pdf (11 pages, 260470 bytes).
+PDF statistics:
+ 152 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
