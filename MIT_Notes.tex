@@ -5,7 +5,8 @@
 \usepackage{amsmath}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
-
+\usepackage{caption}
+\usepackage{float}
 \title{Using \LaTeX\ for MIT Lecture notes}
 \author{Ravi Chhawal}   
 \date{October 18, 2023}
@@ -17,116 +18,127 @@
 \begin{enumerate}
     \item \textbf{\LARGE Lecture 1}
 
-    \begin{enumerate}
-        \item \textbf{\Large MIT Introduction to Geometric Viewpoint on physics}
-              \begin{enumerate}
-                  \item Mathematical foundations on General Relativity
-                  \item Derive Einstein Field Equations
-                  \item {\textbf{Spacetime:}} so what is SpaceTime?? from purely mathematical
-                        point of view... A \colorbox{blue!30}{\textbf{manifold}} of events that is \colorbox{blue!30}{\textbf{endowed}} with \colorbox{blue!30}{\textbf{metric}}.
-                  \item \textbf{Manifold: }  A set of points with well-understood connectedness property. How we connect on region of space time into another region.(For More rigorous discussion insight please refer Carrol Book on General Relativity.)
-                  \item \textbf{Space?????: } Event  When and where something happens. Essentially event is fundamental notion of a coordinate in space and time .
-                  \item \textbf{Labels:} i.e coordinates we attach to events,but the event itself is independent on the choice of coordinate system or labels.
-                  \item \textbf{Metric:} A notion of distance between events in manifold. Without this, manifold has no notion of distance encoded in it. The idea that the mathematical structure that tells me how far apart the two events are is intimately connected to the properties of gravity.
-                  \item \textbf{Special Relativity:} Simplest theory of spacetime, corresponds to general relativity where there is no gravity.
-                  \item \textbf{Inertial Reference Frame:} A lattice of clocks and measuring rods that allows us to label-assign coordinates to spacetime events. (\textit{refer to the book of S Thorne on Gravitation}) Is at rest with respect to someone who does not feel any force acting on it.\\
-                        Properties in respect of Inertial Frame of Reference:
-                        \begin{enumerate}
-                            \item This lattice moves freely through spacetime, No force acting in it, is not rotating.
-                            \item Measuring rods are orthogonal wrt each other. i.e. orthogonal coordinate system.
-                            \item Spacing system of measurement are uniformly ticked. Tick mark are uniformly spaced.
-                            \item clocks tick uniformly
-                            \item Clock Synchronized using \textbf{"Einstein Synchronization Procedure"}
-                        \end{enumerate}
-                        This procedure takes advantage of the fact that the speed of light is same for all frame of reference (observers). Speed of light is key invariant irrespective of any frame of reference
-                        \begin{tikzpicture}[scale=2]
-                            \draw[->,very thick] (0,0) -- node[below=20pt] {
-                                \fontsize{15}{0}$Fig.1$} ++ (3,0)node[below] {\fontsize{19}{0}$ct$};
-                            \draw[->,very thick] (0,0) -- (0,3)node[left] {$t$};
-                            \draw[->,very thick,dotted] (0.5,0) -- (0.5,3)node[below] {$$};
-                            \draw[->,very thick,dotted] (2,0) -- (2,3)node[below] {$$};
-                            \draw[->,very thick,dotted] (.5,.5)--(1.25,1) node[below] {$$};
-                            \draw[->,very thick,dotted] (1.25,1) -- (2,1.5)node[below] {$$};
-                            \draw[->,very thick,dotted] (2,1.5)--(1.25,2) node[below] {$$};
-                            \draw[->,very thick,dotted] (1.25,2) -- (0.5,2.5)node[below] {$$};
-                            %\draw[step=.5cm,gray,very thin] (0,-0) grid (2.9,2.9);
-                            \filldraw (.5,0) circle (0.04)node[below=5pt]{Clock1};
-                            \filldraw (.5,0.5) circle (0.04)node[left=5pt]{ev1};
-                            \filldraw (2,0) circle (0.04)node[below=5pt]{Clock2};
-                            \filldraw (2,1.5) circle (0.04)node[right=15pt]{Reflected Back};
-                            \filldraw (0,.5) circle (0.04)node[left=5pt,font = {\Large\bfseries}]{${t_{1,e}}$};
-                            \filldraw (0,2.5) circle (0.04)node[left=5pt,font = {\Large\bfseries}]{${t_{1,r}}$};
-                            \filldraw (0,1.5) circle (0.04)node[left=5pt,font = {\Large\bfseries}]{${t_{2,b}}$};
-                        \end{tikzpicture}
-                        $t_{1,e}$: Event When Clock1 emits light pulse.\\
-                        $t_{2,b}$: Event When observer at Clock2 reflects light pulse.\\
-                        $t_{1,r}$: Event When Clock1 receives reflected light pulse.\\
-                        $t_{2,b}=\displaystyle{\frac{t_{1,e}+t_{1,r}}{2}}$\\
-              \end{enumerate}
-        \item \textbf{\Large Geometric Viewpoint on physics}
-              \begin{enumerate}
-                  \item \textbf{Units}
-                        \begin{itemize}
-                            \item \textbf{Units:} Choose basic unit of length to be the distance light travels in basic unit of time.
-                            \item $\Rightarrow$ If my basic unit of time is 1 sec then basic unit of length will be one light second
-                            \item Further if we take unit time to be one nano sec then corresponding unit length will be 1 foot \textit{i.e. speed of light is 1 foot per nano sec}
-                            \item we take speed of light to be one unit $c=\displaystyle{\frac{\text{1 light time unit}}{\text{time unit}}}$
-                            \item This means that all velocities will be dimensionless
-                        \end{itemize}
-                        \vspace{11pt}
-                        \begin{center}
-                            \begin{tikzpicture}
-                                \draw[very thick] (0,0)--node[below]{$\Delta \vec{X}$} ++ (7,0);
-                                \node[outer sep=0pt,circle, fill,inner sep=1.5pt,label={[fill=white]left:$P$}] (P) at (0,0) {};
-                                \node[outer sep=0pt,circle, fill,inner sep=1.5pt, label={[fill=white]right:$Q$}] (Q) at (7,0) {};
-                            \end{tikzpicture}
-                        \end{center}
-                        $\Delta \vec{X}$ is displacement in space time from point $P$ to $Q$\\
-                        We Shall define components with respect to observer $O$.
-                        \begin{center}
-                            $\Delta \vec{X} \mathop = \limits^{\boldsymbol{\cdot}}_{O} \left(t_Q-t_P,X_Q-X_P,Y_Q-Y_P,Z_Q-Z_p\right)$\\
-                        \end{center}
-                        The above equation can be written in compact notation i.e\\
-                        $\Delta \vec{X} \mathop \rightarrow \limits^{}_{O} \Delta {X^{\mu}}$\\
-                        where $\mu \in \left[ t,x,y,z\right]$ or  $\mu \in \left[ 0,1,2,3\right]$\\
-                        Usually 0 corresponds to time whereas 1,2,3 may denote other orthogonal coordinate system.\\
-                  \item \textbf{Different Inertial Observer:}\\
-                        $P$ $Q$ and $\Delta \vec{X}$ are geometric objects exists independent of representation.\\
-                        $\Delta \vec{X} \mathop \rightarrow \limits^{}_{\overline{O}} \Delta {X^{\overline{\mu}}}$\\
-                        $O$ and $\overline{O}$ components are related by lorentz transformation as given below:\\
-                        $\Delta {X^{\overline{0}}}=\gamma {\Delta X^0} - \gamma\ v\ {\Delta X^1}$\\
-                        $\Delta {X^{\overline{1}}}=-\gamma\ v\ {\Delta X^0} + \gamma{\Delta X^1}$\\
-                        $\Delta {X^{\overline{2}}}={\Delta X^2}$\\
-                        $\Delta {X^{\overline{3}}}={\Delta X^3}$\\
-                        The above set of transformation holds good for reference frame $\overline{O}$ moving along axis 1 with speed $v$ along axis 1 as seen by observer $O$.\\
-                        where $\gamma  = \left[\frac{1}{\sqrt{1-v^2}}\right]$\\
-                        here $v$ is light speed unit as defined earlier.\\
-                        Better compact notation:\\
-                        \[\Delta X^{\overline{\mu}}=\sum_{\nu = 0}^{3}\Lambda^{\overline{\mu}}_{\nu}\ \Delta X^{\nu}\]
-                        or  writing in simple way of Einstein Summation convention: Repeated indices in upstairs and downstairs positions are summed from 0 to 3.
-                        \[\Delta X^{\overline{\mu}}=\Lambda^{\overline{\mu}}_{\nu}\ \Delta X^{\nu}\]
-                        \[\Lambda^{\overline{\mu}}_{\nu}=\frac{\delta X^{\overline{\mu}}}{ \delta X^{\nu}}\]
-                        the above equation will be used in transformation from one reference frame to other.\\
-                        $\nu$ is dummy index, however $\overline{\mu}$ is not the dummy index sometimes called free index.
-                  \item \textbf{Spacetime Vector:}
-                        Any quartet of numbers (i.e components) which transforms between Inertial reference Frame like displacement Vector.\\
-                        $\vec{A} \mathop = \limits^{}_{O} \left(A^0,A^1,A^2,A^3\right)\mathop \rightarrow \limits^{}_{O} {A^{\alpha}}$\\
-                        If $A^{\overline{\mu}}=\Lambda^{\overline{\mu}}_{\alpha}.A^{\alpha}$\\ decides the component of Vector with respect to observer $O$ then, it also requires linearity rules\\
-                        i.e If $\vec{A}$ and $\vec{B}$ are two vectors then their sum\\
-                        $\vec{C}=\vec{A}+\vec{B}$\\
-                        is also a vector.\\
-                        Further if $\vec{A}$ is a vector and $a$ is a scaler then their product is a vector.\\
-                        $\vec{D}=a.\vec{A}$\\
-                        \textbf{Note:} the scaler quantity should be same for all frame of reference/observers. This means mass cannot be taken as scaler.
+          \begin{enumerate}
+              \item \textbf{\Large MIT Introduction to Geometric Viewpoint on physics}
+                    \begin{enumerate}
+                        \item Mathematical foundations on General Relativity
+                        \item Derive Einstein Field Equations
+                        \item {\textbf{Spacetime:}} so what is SpaceTime?? from purely mathematical
+                              point of view... A \colorbox{blue!30}{\textbf{manifold}} of events that is \colorbox{blue!30}{\textbf{endowed}} with \colorbox{blue!30}{\textbf{metric}}.
+                        \item \textbf{Manifold: }  A set of points with well-understood connectedness property. How we connect on region of space time into another region.(For More rigorous discussion insight please refer Carrol Book on General Relativity.)
+                        \item \textbf{Space?????: } Event  When and where something happens. Essentially event is fundamental notion of a coordinate in space and time .
+                        \item \textbf{Labels:} i.e coordinates we attach to events,but the event itself is independent on the choice of coordinate system or labels.
+                        \item \textbf{Metric:} A notion of distance between events in manifold. Without this, manifold has no notion of distance encoded in it. The idea that the mathematical structure that tells me how far apart the two events are is intimately connected to the properties of gravity.
+                        \item \textbf{Special Relativity:} Simplest theory of spacetime, corresponds to general relativity where there is no gravity.
+                        \item \textbf{Inertial Reference Frame:} A lattice of clocks and measuring rods that allows us to label-assign coordinates to spacetime events. (\textit{refer to the book of S Thorne on Gravitation}) Is at rest with respect to someone who does not feel any force acting on it.\\
+                              Properties in respect of Inertial Frame of Reference:
+                              \begin{enumerate}
+                                  \item This lattice moves freely through spacetime, No force acting in it, is not rotating.
+                                  \item Measuring rods are orthogonal wrt each other. i.e. orthogonal coordinate system.
+                                  \item Spacing system of measurement are uniformly ticked. Tick mark are uniformly spaced.
+                                  \item clocks tick uniformly
+                                  \item Clock Synchronized using \textbf{"Einstein Synchronization Procedure"}
+                              \end{enumerate}
+                              This procedure takes advantage of the fact that the speed of light is same for all frame of reference (observers). Speed of light is key invariant irrespective of any frame of reference.
+                              \begin{figure}[H]
+                                  \centering
+                                  \begin{tikzpicture}[scale=2]
+                                      \draw[->,very thick] (0,0) -- (3,0)node[below] {\fontsize{19}{0}$ct$};
+                                      \draw[->,very thick] (0,0) -- (0,3)node[left] {$t$};
+                                      \draw[->,very thick,dotted] (0.5,0) -- (0.5,3)node[below] {$$};
+                                      \draw[->,very thick,dotted] (2,0) -- (2,3)node[below] {$$};
+                                      \draw[->,very thick,dotted] (.5,.5)--(1.25,1) node[below] {$$};
+                                      \draw[->,very thick,dotted] (1.25,1) -- (2,1.5)node[below] {$$};
+                                      \draw[->,very thick,dotted] (2,1.5)--(1.25,2) node[below] {$$};
+                                      \draw[->,very thick,dotted] (1.25,2) -- (0.5,2.5)node[below] {$$};
+                                      %\draw[step=.5cm,gray,very thin] (0,-0) grid (2.9,2.9);
+                                      \filldraw (.5,0) circle (0.04)node[below=5pt]{Clock1};
+                                      \filldraw (.5,0.5) circle (0.04)node[left=5pt]{ev1};
+                                      \filldraw (2,0) circle (0.04)node[below=5pt]{Clock2};
+                                      \filldraw (2,1.5) circle (0.04)node[right=15pt]{Reflected Back};
+                                      \filldraw (0,.5) circle (0.04)node[left=5pt,font = {\Large\bfseries}]{${t_{1,e}}$};
+                                      \filldraw (0,2.5) circle (0.04)node[left=5pt,font = {\Large\bfseries}]{${t_{1,r}}$};
+                                      \filldraw (0,1.5) circle (0.04)node[left=5pt,font = {\Large\bfseries}]{${t_{2,b}}$};
+                                  \end{tikzpicture}
+                                  \caption{} \label{Fig.1}
+                              \end{figure}
+                              $t_{1,e}$: Event When Clock1 emits light pulse.\\
+                              $t_{2,b}$: Event When observer at Clock2 reflects light pulse.\\
+                              $t_{1,r}$: Event When Clock1 receives reflected light pulse.\\
+                              $t_{2,b}=\displaystyle{\frac{t_{1,e}+t_{1,r}}{2}}$\\
+                    \end{enumerate}
+              \item \textbf{\Large Geometric Viewpoint on physics}
+                    \begin{enumerate}
+                        \item \textbf{Units}
+                              \begin{itemize}
+                                  \item \textbf{Units:} Choose basic unit of length to be the distance light travels in basic unit of time.
+                                  \item $\Rightarrow$ If my basic unit of time is 1 sec then basic unit of length will be one light second
+                                  \item Further if we take unit time to be one nano sec then corresponding unit length will be 1 foot \textit{i.e. speed of light is 1 foot per nano sec}
+                                  \item we take speed of light to be one unit $c=\displaystyle{\frac{\text{1 light time unit}}{\text{time unit}}}$
+                                  \item This means that all velocities will be dimensionless
+                              \end{itemize}
+                              \vspace{11pt}
+                              \begin{figure}[H]
+                               \centering 
+                                  \begin{tikzpicture}
+                                      \draw[very thick] (0,0)--node[below]{$\Delta \vec{X}$} ++ (7,0);
+                                      \node[outer sep=0pt,circle, fill,inner sep=1.5pt,label={[fill=white]left:$P$}] (P) at (0,0) {};
+                                      \node[outer sep=0pt,circle, fill,inner sep=1.5pt, label={[fill=white]right:$Q$}] (Q) at (7,0) {};
+                                  \end{tikzpicture}%
+                                  \caption{} \label{Fig.2}
+                              \end{figure}
+                              $\Delta \vec{X}$ is displacement in space time from point $P$ to $Q$\\
+                              We Shall define components with respect to observer $O$.
+                              \begin{center}
+                                  $\Delta \vec{X} \mathop = \limits^{\boldsymbol{\cdot}}_{O} \left(t_Q-t_P,X_Q-X_P,Y_Q-Y_P,Z_Q-Z_p\right)$\\
+                              \end{center}
+                              The above equation can be written in compact notation i.e\\
+                              $\Delta \vec{X} \mathop \rightarrow \limits^{}_{O} \Delta {X^{\mu}}$\\
+                              where $\mu \in \left[ t,x,y,z\right]$ or  $\mu \in \left[ 0,1,2,3\right]$\\
+                              Usually 0 corresponds to time whereas 1,2,3 may denote other orthogonal coordinate system.\\
+                        \item \textbf{Different Inertial Observer:}\\
+                              $P$ $Q$ and $\Delta \vec{X}$ are geometric objects exists independent of representation.\\
+                              $\Delta \vec{X} \mathop \rightarrow \limits^{}_{\overline{O}} \Delta {X^{\overline{\mu}}}$\\
+                              $O$ and $\overline{O}$ components are related by lorentz transformation as given below:\\
+                              $\Delta {X^{\overline{0}}}=\gamma {\Delta X^0} - \gamma\ v\ {\Delta X^1}$\\
+                              $\Delta {X^{\overline{1}}}=-\gamma\ v\ {\Delta X^0} + \gamma{\Delta X^1}$\\
+                              $\Delta {X^{\overline{2}}}={\Delta X^2}$\\
+                              $\Delta {X^{\overline{3}}}={\Delta X^3}$\\
+                              The above set of transformation holds good for reference frame $\overline{O}$ moving along axis 1 with speed $v$ along axis 1 as seen by observer $O$.\\
+                              where $\gamma  = \left[\frac{1}{\sqrt{1-v^2}}\right]$\\
+                              here $v$ is light speed unit as defined earlier.\\
+                              Better compact notation:\\
+                              \[\Delta X^{\overline{\mu}}=\sum_{\nu = 0}^{3}\Lambda^{\overline{\mu}}_{\nu}\ \Delta X^{\nu}\]
+                              or  writing in simple way of Einstein Summation convention: Repeated indices in upstairs and downstairs positions are summed from 0 to 3.
+                              \[\Delta X^{\overline{\mu}}=\Lambda^{\overline{\mu}}_{\nu}\ \Delta X^{\nu}\]
+                              \[\Lambda^{\overline{\mu}}_{\nu}=\frac{\delta X^{\overline{\mu}}}{ \delta X^{\nu}}\]
+                              the above equation will be used in transformation from one reference frame to other.\\
+                              $\nu$ is dummy index, however $\overline{\mu}$ is not the dummy index sometimes called free index.
+                        \item \textbf{Spacetime Vector:}
+                              Any quartet of numbers (i.e components) which transforms between Inertial reference Frame like displacement Vector.\\
+                              $\vec{A} \mathop = \limits^{}_{O} \left(A^0,A^1,A^2,A^3\right)\mathop \rightarrow \limits^{}_{O} {A^{\alpha}}$\\
+                              If $A^{\overline{\mu}}=\Lambda^{\overline{\mu}}_{\alpha}.A^{\alpha}$\\ decides the component of Vector with respect to observer $O$ then, it also requires linearity rules\\
+                              i.e If $\vec{A}$ and $\vec{B}$ are two vectors then their sum\\
+                              $\vec{C}=\vec{A}+\vec{B}$\\
+                              is also a vector.\\
+                              Further if $\vec{A}$ is a vector and $a$ is a scaler then their product is a vector.\\
+                              $\vec{D}=a.\vec{A}$\\
+                              \textbf{Note:} the scaler quantity should be same for all frame of reference/observers. This means mass cannot be taken as scaler.
 
-              \end{enumerate}
-    \end{enumerate}
+                    \end{enumerate}
+          \end{enumerate}
     \item \textbf{\LARGE Lecture 2}
-    \begin{enumerate}        
-        \item \textbf{Introduction to Tensors}
-    \end{enumerate}
+          \begin{enumerate}
+              \item \textbf{Introduction to Tensors}\\
+              \textbf{Basis Vector:} In Frame $O$ we can write down 4 special vectors :\\
+              $\vec e_0 = (1,0,0,0)$\\
+              $\vec e_1 = (0,1,0,0)$\\
+              $\vec e_2 = (0,0,1,0)$\\
+              $\vec e_3 = (0,0,0,1)$\\
+              Compact way of writing this:           
+              $(\vec e_{\alpha})^{\beta}\mathop = \limits^{}_{O}  \delta^{\beta}_{\alpha}$\\                            
+          \end{enumerate}
 \end{enumerate}
 \noindent\rule{\textwidth}{1pt}
 \href{https://youtu.be/iRVfaR3N5K4?t=3847}{text}
-Qukej1b!M@qomag1
 \end{document}
