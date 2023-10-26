@@ -1,0 +1,1157 @@
+#LyX file created by tex2lyx 2.3
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin C:/Users/ravic/OneDrive/General Relativity/MIT Lectures/
+\textclass article
+\begin_preamble
+\usepackage{tikz}
+\usepackage{caption}
+\title{Using \LaTeX\ for MIT Lecture notes}
+\author{Ravi Chhawal}   
+\date{October 18, 2023}
+\pagenumbering{arabic}
+
+
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "lmodern" "default"
+\font_sans "default" "default"
+\font_typewriter "lmodern" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref true
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks 0
+\pdf_pdfborder 0
+\pdf_colorlinks 0
+\pdf_backref section
+\pdf_pdfusetitle 0
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+maketitle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+
+\size largest
+Lecture 1
+\series default
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+
+\size larger
+MIT Introduction to Geometric Viewpoint on physics
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Mathematical foundations on General Relativity 
+\end_layout
+
+\begin_layout Enumerate
+Derive Einstein Field Equations 
+\end_layout
+
+\begin_layout Enumerate
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Spacetime:
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ so what is SpaceTime?? from purely mathematical point of view... A 
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 1
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "blue!30"
+status open
+
+
+\begin_layout Plain Layout
+
+\series bold
+manifold
+\series default
+
+\end_layout
+
+\end_inset
+
+ of events that is 
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 1
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "blue!30"
+status open
+
+
+\begin_layout Plain Layout
+
+\series bold
+endowed
+\series default
+
+\end_layout
+
+\end_inset
+
+ with 
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 1
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "blue!30"
+status open
+
+
+\begin_layout Plain Layout
+
+\series bold
+metric
+\series default
+
+\end_layout
+
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Manifold: 
+\series default
+ A set of points with well-understood connectedness property. How we connect on region of space time into another region.(For More rigorous discussion insight please refer Carrol Book on General Relativity.) 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Space?????: 
+\series default
+ Event When and where something happens. Essentially event is fundamental notion of a coordinate in space and time . 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Labels:
+\series default
+ i.e coordinates we attach to events,but the event itself is independent on the choice of coordinate system or labels. 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Metric:
+\series default
+ A notion of distance between events in manifold. Without this, manifold has no notion of distance encoded in it. The idea that the mathematical structure that tells me how far apart the two events are is intimately connected to the properties of gravity. 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Special Relativity:
+\series default
+ Simplest theory of spacetime, corresponds to general relativity where there is no gravity. 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Inertial Reference Frame:
+\series default
+ A lattice of clocks and measuring rods that allows us to label-assign coordinates to spacetime events. (
+\shape italic
+refer to the book of S Thorne on Gravitation
+\shape default
+) Is at rest with respect to someone who does not feel any force acting on it.
+\begin_inset Newline newline
+\end_inset
+
+ Properties in respect of Inertial Frame of Reference: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+This lattice moves freely through spacetime, No force acting in it, is not rotating. 
+\end_layout
+
+\begin_layout Enumerate
+Measuring rods are orthogonal wrt each other. i.e. orthogonal coordinate system. 
+\end_layout
+
+\begin_layout Enumerate
+Spacing system of measurement are uniformly ticked. Tick mark are uniformly spaced. 
+\end_layout
+
+\begin_layout Enumerate
+clocks tick uniformly 
+\end_layout
+
+\begin_layout Enumerate
+Clock Synchronized using 
+\series bold
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Einstein Synchronization Procedure
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+
+\series default
+ 
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Standard
+This procedure takes advantage of the fact that the speed of light is same for all frame of reference (observers). Speed of light is key invariant irrespective of any frame of reference. 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{tikzpicture}[scale=2]
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+draw[->,very thick] (0,0) -- (3,0)node[below] {
+\backslash
+fontsize{19}{0}$ct$};
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+draw[->,very thick] (0,0) -- (0,3)node[left] {$t$};
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+draw[->,very thick,dotted] (0.5,0) -- (0.5,3)node[below] {$$};
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+draw[->,very thick,dotted] (2,0) -- (2,3)node[below] {$$};
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+draw[->,very thick,dotted] (.5,.5)--(1.25,1) node[below] {$$};
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+draw[->,very thick,dotted] (1.25,1) -- (2,1.5)node[below] {$$};
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+draw[->,very thick,dotted] (2,1.5)--(1.25,2) node[below] {$$};
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+draw[->,very thick,dotted] (1.25,2) -- (0.5,2.5)node[below] {$$};
+\end_layout
+
+\begin_layout Plain Layout
+                                      %
+\backslash
+draw[step=.5cm,gray,very thin] (0,-0) grid (2.9,2.9);
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+filldraw (.5,0) circle (0.04)node[below=5pt]{Clock1};
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+filldraw (.5,0.5) circle (0.04)node[left=5pt]{ev1};
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+filldraw (2,0) circle (0.04)node[below=5pt]{Clock2};
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+filldraw (2,1.5) circle (0.04)node[right=15pt]{Reflected Back};
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+filldraw (0,.5) circle (0.04)node[left=5pt,font = {
+\backslash
+Large
+\backslash
+bfseries}]{${t_{1,e}}$};
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+filldraw (0,2.5) circle (0.04)node[left=5pt,font = {
+\backslash
+Large
+\backslash
+bfseries}]{${t_{1,r}}$};
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+filldraw (0,1.5) circle (0.04)node[left=5pt,font = {
+\backslash
+Large
+\backslash
+bfseries}]{${t_{2,b}}$};
+\end_layout
+
+\begin_layout Plain Layout
+                                  
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Fig.1"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Formula $t_{1,e}$
+\end_inset
+
+: Event When Clock1 emits light pulse.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $t_{2,b}$
+\end_inset
+
+: Event When observer at Clock2 reflects light pulse.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $t_{1,r}$
+\end_inset
+
+: Event When Clock1 receives reflected light pulse.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $t_{2,b}=\displaystyle{\frac{t_{1,e}+t_{1,r}}{2}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+
+\size larger
+Geometric Viewpoint on physics
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Units
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Units:
+\series default
+ Choose basic unit of length to be the distance light travels in basic unit of time. 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ If my basic unit of time is 1 sec then basic unit of length will be one light second 
+\end_layout
+
+\begin_layout Itemize
+Further if we take unit time to be one nano sec then corresponding unit length will be 1 foot 
+\shape italic
+i.e. speed of light is 1 foot per nano sec
+\shape default
+ 
+\end_layout
+
+\begin_layout Itemize
+we take speed of light to be one unit 
+\begin_inset Formula $c=\displaystyle{\frac{\text{1 light time unit}}{\text{time unit}}}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+This means that all velocities will be dimensionless 
+\end_layout
+
+\end_deeper
+\begin_deeper
+\begin_layout Standard
+
+\begin_inset VSpace 11pt
+\end_inset
+
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+draw[very thick] (0,0)--node[below]{$
+\backslash
+Delta 
+\backslash
+vec{X}$} ++ (7,0);
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+node[outer sep=0pt,circle, fill,inner sep=1.5pt,label={[fill=white]left:$P$}] (P) at (0,0) {};
+\end_layout
+
+\begin_layout Plain Layout
+                                      
+\backslash
+node[outer sep=0pt,circle, fill,inner sep=1.5pt, label={[fill=white]right:$Q$}] (Q) at (7,0) {};
+\end_layout
+
+\begin_layout Plain Layout
+                                  
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{tikzpicture}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Fig.2"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Formula $\Delta \vec{X}$
+\end_inset
+
+ is displacement in space time from point 
+\begin_inset Formula $P$
+\end_inset
+
+ to 
+\begin_inset Formula $Q$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ We Shall define components with respect to observer 
+\begin_inset Formula $O$
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\begin_inset Formula $\Delta \vec{X} \mathop = \limits^{\boldsymbol{\cdot}}_{O} \left(t_Q-t_P,X_Q-X_P,Y_Q-Y_P,Z_Q-Z_p\right)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+The above equation can be written in compact notation i.e
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\Delta \vec{X} \mathop \rightarrow \limits^{}_{O} \Delta {X^{\mu}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ where 
+\begin_inset Formula $\mu \in \left[ t,x,y,z\right]$
+\end_inset
+
+ or 
+\begin_inset Formula $\mu \in \left[ 0,1,2,3\right]$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Usually 0 corresponds to time whereas 1,2,3 may denote other orthogonal coordinate system.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Different Inertial Observer:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $P$
+\end_inset
+
+ 
+\begin_inset Formula $Q$
+\end_inset
+
+ and 
+\begin_inset Formula $\Delta \vec{X}$
+\end_inset
+
+ are geometric objects exists independent of representation.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\Delta \vec{X} \mathop \rightarrow \limits^{}_{\overline{O}} \Delta {X^{\overline{\mu}}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $O$
+\end_inset
+
+ and 
+\begin_inset Formula $\overline{O}$
+\end_inset
+
+ components are related by lorentz transformation as given below:
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\Delta {X^{\overline{0}}}=\gamma {\Delta X^0} - \gamma\ v\ {\Delta X^1}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\Delta {X^{\overline{1}}}=-\gamma\ v\ {\Delta X^0} + \gamma{\Delta X^1}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\Delta {X^{\overline{2}}}={\Delta X^2}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\Delta {X^{\overline{3}}}={\Delta X^3}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ The above set of transformation holds good for reference frame 
+\begin_inset Formula $\overline{O}$
+\end_inset
+
+ moving along axis 1 with speed 
+\begin_inset Formula $v$
+\end_inset
+
+ along axis 1 as seen by observer 
+\begin_inset Formula $O$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+ where 
+\begin_inset Formula $\gamma  = \left[\frac{1}{\sqrt{1-v^2}}\right]$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ here 
+\begin_inset Formula $v$
+\end_inset
+
+ is light speed unit as defined earlier.
+\begin_inset Newline newline
+\end_inset
+
+ Better compact notation:
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula \[\Delta X^{\overline{\mu}}=\sum_{\nu = 0}^{3}\Lambda^{\overline{\mu}}_{\nu}\ \Delta X^{\nu}\]
+\end_inset
+
+or writing in simple way of Einstein Summation convention: Repeated indices in upstairs and downstairs positions are summed from 0 to 3. 
+\begin_inset Formula \[\Delta X^{\overline{\mu}}=\Lambda^{\overline{\mu}}_{\nu}\ \Delta X^{\nu}\]
+\end_inset
+
+
+\begin_inset Formula \[\Lambda^{\overline{\mu}}_{\nu}=\frac{\delta X^{\overline{\mu}}}{ \delta X^{\nu}}\]
+\end_inset
+
+the above equation will be used in transformation from one reference frame to other.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\nu$
+\end_inset
+
+ is dummy index, however 
+\begin_inset Formula $\overline{\mu}$
+\end_inset
+
+ is not the dummy index sometimes called free index. 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Spacetime Vector:
+\series default
+ Any quartet of numbers (i.e components) which transforms between Inertial reference Frame like displacement Vector.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{A} \mathop = \limits^{}_{O} \left(A^0,A^1,A^2,A^3\right)\mathop \rightarrow \limits^{}_{O} {A^{\alpha}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ If 
+\begin_inset Formula $A^{\overline{\mu}}=\Lambda^{\overline{\mu}}_{\alpha}.A^{\alpha}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ decides the component of Vector with respect to observer 
+\begin_inset Formula $O$
+\end_inset
+
+ then, it also requires linearity rules
+\begin_inset Newline newline
+\end_inset
+
+ i.e If 
+\begin_inset Formula $\vec{A}$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{B}$
+\end_inset
+
+ are two vectors then their sum
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{C}=\vec{A}+\vec{B}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ is also a vector.
+\begin_inset Newline newline
+\end_inset
+
+ Further if 
+\begin_inset Formula $\vec{A}$
+\end_inset
+
+ is a vector and 
+\begin_inset Formula $a$
+\end_inset
+
+ is a scaler then their product is a vector.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{D}=a.\vec{A}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\series bold
+Note:
+\series default
+ the scaler quantity should be same for all frame of reference/observers. This means mass cannot be taken as scaler.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+
+\size largest
+Lecture 2
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Introduction to Tensors
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\series bold
+Basis Vector:
+\series default
+ In Frame 
+\begin_inset Formula $O$
+\end_inset
+
+ we can write down 4 special vectors :
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec e_0 \mathop = \limits^{}_{O} (1,0,0,0)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec e_1 \mathop = \limits^{}_{O} (0,1,0,0)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec e_2 \mathop = \limits^{}_{O} (0,0,1,0)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec e_3 \mathop = \limits^{}_{O} (0,0,0,1)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Compact way of writing this:
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $(\vec e_{\alpha})^{\beta}\mathop = \limits^{}_{O}  \delta^{\beta}_{\alpha}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\noindent
+
+\begin_inset CommandInset line
+LatexCommand rule
+width "100text%"
+height "1pt"
+
+\end_inset
+
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "text"
+target "https://youtu.be/iRVfaR3N5K4?t=3847"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

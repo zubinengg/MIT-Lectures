@@ -79,7 +79,7 @@
                               \end{itemize}
                               \vspace{11pt}
                               \begin{figure}[H]
-                               \centering 
+                                  \centering
                                   \begin{tikzpicture}
                                       \draw[very thick] (0,0)--node[below]{$\Delta \vec{X}$} ++ (7,0);
                                       \node[outer sep=0pt,circle, fill,inner sep=1.5pt,label={[fill=white]left:$P$}] (P) at (0,0) {};
@@ -130,15 +130,38 @@
     \item \textbf{\LARGE Lecture 2}
           \begin{enumerate}
               \item \textbf{Introduction to Tensors}\\
-              \textbf{Basis Vector:} In Frame $O$ we can write down 4 special vectors :\\
-              $\vec e_0 = (1,0,0,0)$\\
-              $\vec e_1 = (0,1,0,0)$\\
-              $\vec e_2 = (0,0,1,0)$\\
-              $\vec e_3 = (0,0,0,1)$\\
-              Compact way of writing this:           
-              $(\vec e_{\alpha})^{\beta}\mathop = \limits^{}_{O}  \delta^{\beta}_{\alpha}$\\                            
+                    \textbf{Basis Vector:} In Frame of reference/observer '$O$' we can write down 4 special vectors :\\
+                    $\vec e_0 \mathop = \limits^{}_{O} (1,0,0,0)$\\
+                    $\vec e_1 \mathop = \limits^{}_{O} (0,1,0,0)$\\
+                    $\vec e_2 \mathop = \limits^{}_{O} (0,0,1,0)$\\
+                    $\vec e_3 \mathop = \limits^{}_{O} (0,0,0,1)$\\
+                    Compact way of writing this:\\
+                    $(\vec e_{\alpha})^{\beta}\mathop = \limits^{}_{O}  \delta^{\beta}_{\alpha}$\\
+                    \textbf{Kronecker delta function}\\
+                    The utility os above set of equations is:\\
+                    $\vec{A}=A^{\alpha}.\vec{e}_{\alpha}$\\
+                    The above equaltion represents actual equality and not representation symbol.\\
+                    we shall now see how basis vectors transforms when reference frame changes.
+                    \begin{flalign*}
+                        \vec{A}=A^{\alpha}.\vec{e}_{\alpha} & =A^{\overline{\mu}}.\vec{e}_{\overline{\mu}}                                     & \\
+                                                            & =\left(\Lambda^{\overline{\mu}}_{\beta}A^{\beta} \right)\vec{e}_{\overline{\mu}}
+                    \end{flalign*}
+                    \textbf{Index Notation}\\
+                    normally the above equation is represented in matrix notation. However as the index of matrix increases representation in matrix form is not desirable.\\
+                    For ordinary multiplication the above equation can be reformatted as\\
+                    $=\left(A^{\beta} \Lambda^{\overline{\mu}}_{\beta} \right)\vec{e}_{\overline{\mu}}$\\
+                    In above equation $\beta$ is dummy index and can be re-written as...\\
+                    $A^{\alpha}.\vec{e}_{\alpha} = A^{\beta}  \Lambda^{\overline{\mu}}_{\beta}\vec{e}_{\overline{\mu}}$\\            
+                    $\Rightarrow A^{\alpha}.\vec{e}_{\alpha} = A^{\alpha}  \Lambda^{\overline{\mu}}_{\alpha}\vec{e}_{\overline{\mu}}$\\
+                    $\Rightarrow A^{\alpha}.\vec{e}_{\alpha} - A^{\alpha}  \Lambda^{\overline{\mu}}_{\alpha}\vec{e}_{\overline{\mu}}=0$\\
+                    $\Rightarrow A^{\alpha}\left(\vec{e}_{\alpha} - \Lambda^{\overline{\mu}}_{\alpha}\vec{e}_{\overline{\mu}}\right)=0------------------(1)$\\
+                    Since $A^{\alpha}$ is arbitrary... the above equation (1) will hold good or are valid only if\\
+                    $\vec{e}_{\alpha} = \Lambda^{\overline{\mu}}_{\alpha}\vec{e}_{\overline{\mu}}$\\
+                    since $A^{\overline{\mu}}=\Lambda^{\overline{\mu}}_{\alpha}.A^{\alpha}$\\
+                    to get inverse lorentz transformation just reverse the velocity components\\
+
           \end{enumerate}
 \end{enumerate}
 \noindent\rule{\textwidth}{1pt}
-\href{https://youtu.be/iRVfaR3N5K4?t=3847}{text}
+\href{https://youtu.be/TiHHz3sKDbY?list=PL6Q1107aDrSgQ1DBEugejXLfQX76hfSnX&t=1188}{text}
 \end{document}
