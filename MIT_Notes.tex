@@ -140,18 +140,18 @@
                     \textbf{Kronecker delta function}\\
                     The utility os above set of equations is:\\
                     $\vec{A}=A^{\alpha}.\vec{e}_{\alpha}$\\
-                    The above equaltion represents actual equality and not representation symbol.\\
+                    The above equation represents actual equality and not representation symbol.\\
                     we shall now see how basis vectors transforms when reference frame changes.
                     \begin{flalign*}
                         \vec{A}=A^{\alpha}.\vec{e}_{\alpha} & =A^{\overline{\mu}}.\vec{e}_{\overline{\mu}}                                     & \\
                                                             & =\left(\Lambda^{\overline{\mu}}_{\beta}A^{\beta} \right)\vec{e}_{\overline{\mu}}
                     \end{flalign*}
                     \textbf{Index Notation}\\
-                    normally the above equation is represented in matrix notation. However as the index of matrix increases representation in matrix form is not desirable.\\
+                    Normally the above equation is represented in matrix notation. However as the index of matrix increases representation in matrix form is not desirable.\\
                     For ordinary multiplication the above equation can be reformatted as\\
                     $=\left(A^{\beta} \Lambda^{\overline{\mu}}_{\beta} \right)\vec{e}_{\overline{\mu}}$\\
                     In above equation $\beta$ is dummy index and can be re-written as...\\
-                    $A^{\alpha}.\vec{e}_{\alpha} = A^{\beta}  \Lambda^{\overline{\mu}}_{\beta}\vec{e}_{\overline{\mu}}$\\            
+                    $A^{\alpha}.\vec{e}_{\alpha} = A^{\beta}  \Lambda^{\overline{\mu}}_{\beta}\vec{e}_{\overline{\mu}}$\\
                     $\Rightarrow A^{\alpha}.\vec{e}_{\alpha} = A^{\alpha}  \Lambda^{\overline{\mu}}_{\alpha}\vec{e}_{\overline{\mu}}$\\
                     $\Rightarrow A^{\alpha}.\vec{e}_{\alpha} - A^{\alpha}  \Lambda^{\overline{\mu}}_{\alpha}\vec{e}_{\overline{\mu}}=0$\\
                     $\Rightarrow A^{\alpha}\left(\vec{e}_{\alpha} - \Lambda^{\overline{\mu}}_{\alpha}\vec{e}_{\overline{\mu}}\right)=0------------------(1)$\\
@@ -159,9 +159,41 @@
                     $\vec{e}_{\alpha} = \Lambda^{\overline{\mu}}_{\alpha}\vec{e}_{\overline{\mu}}$\\
                     since $A^{\overline{\mu}}=\Lambda^{\overline{\mu}}_{\alpha}.A^{\alpha}$\\
                     to get inverse lorentz transformation just reverse the velocity components\\
+
+                    $\vec{e}_{\alpha} = \Lambda^{\overline{\mu}}_{\alpha}(\underset{\sim}{v})\vec{e}_{\overline{\mu}}$\\
+
+                    $\vec{e}_{\overline{\mu}} = \Lambda^{\nu}_{\overline{\mu}}(-\underset{\sim}{v})\vec{e}_{\nu} $\\
+
+                    Using the transformation:\\
+                    $\vec{e}_{\alpha} = \Lambda^{\overline{\beta}}_{\alpha}(\underset{\sim}{v})\vec{e}_{\overline{\beta}}$\\
+                    $\vec{e}_{\alpha} = \Lambda^{\overline{\beta}}_{\alpha}(\underset{\sim}{v})\left[\Lambda^{\gamma}_{\overline{\beta}}(-\underset{\sim}{v})\vec{e}_{\gamma}\right]$\\
+                    $\vec{e}_{\alpha} = \left[\Lambda^{\overline{\beta}}_{\alpha}(\underset{\sim}{v})\, \Lambda^{\gamma}_{\overline{\beta}}(-\underset{\sim}{v})\right]\vec{e}_{\gamma}$\\
+                    the above equation will hold good if the components under square brackets reduces to Identity matrix.\\
+                    kronecker delta function:\\
+                    $\delta^{\alpha}_{\gamma}= \Lambda^{\overline{\beta}}_{\alpha}\, \Lambda^{\gamma}_{\overline{\beta}}$\\
+                    likewise:\\
+                    $\delta^{\overline\alpha}_{\overline\gamma}= \Lambda^{\beta}_{\overline\alpha}\, \Lambda^{\overline\gamma}_{\beta}$\\
+
+                    we shall now see operations which can be done with these 4 vectors (i.e 3 space vector and one time vector)
+                    \begin{enumerate}
+                        \item \textbf{Scaler Product:}\\
+                              As per special relativity\\
+                              $\Delta{S^2}=-\Delta{t^2}+\Delta{X^2}+\Delta{Y^2}+\Delta{Z^2}$\\
+                              this is invariant: Same in all lorentz frame of reference\\
+                              the above equation can be written as\\
+                              $\Delta{S^2} = \Delta \vec{X} \cdot \Delta\vec{X}$\\
+                              $\mathop = \limits^{.}_{\theta}  -(\Delta{X_0})^2+(\Delta{X_1})^2+(\Delta{X_2})^2+(\Delta{X_3})^2$\\
+                              The question may arise that why the first component i.e time has negative sign where as other dimensions i.e spacial direction are +ve sign. The direction of time is one-sided. we cannot go back and forth in time. This is how the space time as we know it. It is part of built-in geometry of nature.\\
+                              this has same transformation properties as displacement vector.\\
+                              since 4 vectors have same transformation properties as $\Delta \vec{X}$, we similarly define $\vec{A}\cdot\vec{A}$
+
+                        \item temp
+                    \end{enumerate}
           \end{enumerate}
 \end{enumerate}
 \noindent\rule{\textwidth}{1pt}
-\href{https://youtu.be/TiHHz3sKDbY?list=PL6Q1107aDrSgQ1DBEugejXLfQX76hfSnX&t=1188}{text}
-Draw.io
+\href{https://youtu.be/TiHHz3sKDbY?list=PL6Q1107aDr%SgQ1DBEugejXLfQX76hfSnX&t=1188}{text} Draw.io
 \end{document}
+
+%https://youtu.be/TiHHz3sKDbY?list=PL6Q1107aDrSgQ1DBEugejXLfQX76hfSnX&t=1782
+%Format Document SHift+Alt+F
