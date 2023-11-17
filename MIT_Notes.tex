@@ -7,6 +7,8 @@
 \usepackage{hyperref}
 \usepackage{caption}
 \usepackage{float}
+\newcommand{\uvec}[1]{\boldsymbol{\hat{\textbf{#1}}}}
+
 \title{Using \LaTeX\ for MIT Lecture notes}
 \author{Ravi Chhawal}   
 \date{October 18, 2023}
@@ -194,15 +196,51 @@
                               If $\vec{A}\cdot\vec{A} > 0$ then vector $\vec{A}$ is \textbf{"Space like"}.\\
                               If $\vec{A}\cdot\vec{A} = 0$ then vector $\vec{A}$ is \textbf{"light like or NULL"}.\\
                         \item \textbf{More General Notation}\\
+                              Scaler is a quantity which does not have any component\\
                               $\vec{A}\cdot\vec{B} \mathop = \limits^{.}_{\theta} - A^0\cdot B^0 + A^1\cdot B^1 + A^2\cdot B^2 + A^3\cdot B^3$\\
                               This quantity must also be an invariant. This can be easily proved by using $\vec{C}=\vec{A}+\vec{B}$, since $\vec{C}\cdot\vec{C}$ is invariant\\
-                              $\Rightarrow$ $ \vec{A}\cdot\vec{B}$ is also lorentz invariant.
-                        \item using $\vec{A}$ and $\vec{B}$ as component of basis vectors we have
+                              $\Rightarrow$ $ \vec{A}\cdot\vec{B}$ is also lorentz invariant.\\
+                              using $\vec{A}$ and $\vec{B}$ as component of basis vectors we have
                               \begin{align*}
                                   \vec{A}\cdot\vec{B} & = (A^{\alpha}\vec{e_{\alpha}})\cdot(B^{\beta}\vec{e_{\beta}}) \\
                                                       & = A^{\alpha}.B^{\beta} (\vec{e_{\alpha}}.\vec{e_{\beta}})     \\
                                                       & = A^{\alpha}.B^{\beta} {\displaystyle{\eta_{\alpha\beta}}}
                               \end{align*}
+                              here ${\displaystyle{\eta_{\alpha\beta}}}$ is two index tensor
+                              \[ {\displaystyle{\eta_{\alpha\beta}}} = \begin{pmatrix}
+                                      -1 & 0 & 0 & 0 \\
+                                      0  & 1 & 0 & 0 \\
+                                      0  & 0 & 1 & 0 \\
+                                      0  & 0 & 0 & 1 \\\end{pmatrix} \rightarrow the\ "metric"\ Tensor \]
+                              $\Delta{S^2} = \Delta \vec{X} \cdot \Delta\vec{X}$\\
+                              $\Rightarrow \Delta{S^2} = {\displaystyle{\eta_{\alpha\beta}}} \Delta X^{\alpha} \Delta X^{\beta}$\\
+                              we will use $\eta$ for transformation in cartesian coordinates\\
+                              rewriting the above equations in form of differentials we have\\
+                              $d{S^2} = d \vec{X} \cdot d\vec{X}$\\
+                              $\Rightarrow d {S^2} = {\displaystyle{\eta_{\alpha\beta}}}\ d X^{\alpha}\ d X^{\beta}$\\
+
+                              when the equation below holds true: i.e\\
+                              $d\vec{X}= dX^{\alpha}\ \vec{e}_{\alpha}$\\
+                              then we say that $\vec{e}_{\alpha}$ is \textbf{coordinate basis} vector.
+                        \item \textbf{Curvilinear coordinates}:\\
+                              $d\underset{\sim}{X} = dX^i \vec{e_i}$\\
+                              $= d{r}\ \vec{e_r} + d\theta\ \vec{e_{\theta}} +d\phi\ \vec{e_{\phi}} $\\
+                              $= d{r}\ \vec{e}_{\hat{r}} + d\theta\ r \vec{e}_{\hat{\theta}} +d\phi\ r \sin\theta\ \vec{e}_{\Hat{\phi}} $\\
+                             
+                              $\vec{e}_{\Hat{i}}$ is orthogonal basis if \\
+                              $\vec{e}_{\Hat{i}}\cdot \vec{e}_{\Hat{j}} = \delta_{ij}$\\
+                              kronecker delta function.\\
+                              for Curvilinear coordinates as defined above this is not the case as :\\
+                              $\vec{e}_{\hat{r}} \cdot \vec{e}_{\hat{r}} = 1 $\\ 
+                              $\vec{e}_{\hat{\theta}} \cdot \vec{e}_{\hat{\theta}} = r^2 $\\ 
+                              $\vec{e}_{\hat{\phi}} \cdot \vec{e}_{\hat{\phi}} = r^2.\sin^2\theta $\\ 
+                              thus the metric tensor ${\displaystyle{\eta_{\alpha\beta}}}$ will change for Curvilinear coordinate system as we are not dealing with orthonormal basis vectors.
+
+                              \item \textbf{Important 4 vectors}\\
+                              $\vec{U}\equiv  \dfrac{d\vec{X}}{dT}$ this has 4 velocity components..\\
+                              $dT$ is time interval as measured along the trajectory of the observer \\
+                              Interval of \textbf{"proper time"}\\
+                              
                     \end{enumerate}
           \end{enumerate}
 \end{enumerate}
@@ -210,5 +248,5 @@
 \href{https://youtu.be/TiHHz3sKDbY?list=PL6Q1107aDr%SgQ1DBEugejXLfQX76hfSnX&t=1188}{text} Draw.io
 \end{document}
 
-%https://youtu.be/TiHHz3sKDbY?list=PL6Q1107aDrSgQ1DBEugejXLfQX76hfSnX&t=2285
+%https://youtu.be/TiHHz3sKDbY?list=PL6Q1107aDrSgQ1DBEugejXLfQX76hfSnX&t=3166
 %Format Document SHift+Alt+F
