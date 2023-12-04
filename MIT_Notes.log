@@ -478,4 +478,237 @@ Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count307
 \c@continuedfloat=\count308
-Package capt
+Package caption Info: hyperref package is loaded.
+) (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count309
+\float@exts=\toks37
+\float@box=\box64
+\@float@everytoks=\toks38
+\@floatcapt=\box65
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 17.
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count310
+\l__pdf_internal_box=\box66
+) (./MIT_Notes.aux)
+\openout1 = `MIT_Notes.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(d:/TeXLive/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count311
+\scratchdimen=\dimen278
+\scratchbox=\box67
+\nofMPsegments=\count312
+\nofMParguments=\count313
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count314
+\MPscratchDim=\dimen279
+\MPnumerator=\count315
+\makeMPintoPDFobject=\count316
+\everyMPtoPDFconversion=\toks40
+) (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package hyperref Info: Link coloring OFF on input line 17.
+ (./MIT_Notes.out) (./MIT_Notes.out)
+\@outlinefile=\write4
+\openout4 = `MIT_Notes.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 19.
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 19.
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 19.
+ (d:/TeXLive/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 19.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 19.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 19.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 19.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 19.
+LaTeX Font Info:    Calculating math sizes for size <19> on input line 48.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <19> on input line 48.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <13.29994> on input line 48.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9.5> on input line 48.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 49.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 61.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 61.
+ [1
+
+{d:/TeXLive/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{d:/TeXLive/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 76.
+(d:/TeXLive/texlive/2023/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 97--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--113
+
+ []
+
+[2{d:/TeXLive/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{d:/TeXLive/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{d:/TeXLive/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] [3{d:/TeXLive/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 150--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--178
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 194--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--221
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--229
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 239--248
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--263
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--265
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--274
+
+ []
+
+[6] [7] (./MIT_Notes.aux)
+Package rerunfilecheck Info: File `MIT_Notes.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 21750 strings out of 476001
+ 409468 string characters out of 5789205
+ 1870068 words of memory out of 5000000
+ 41830 multiletter control sequences out of 15000+600000
+ 573770 words of font info for 80 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 102i,10n,104p,469b,1004s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr6.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><d:/TeXLive/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on MIT_Notes.pdf (7 pages, 262308 bytes).
+PDF statistics:
+ 167 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
