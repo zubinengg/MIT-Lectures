@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1750924782.61603 "c:/Users/DIR/OneDrive/General Relativity/MIT Lectures/MIT_Notes.tex" "MIT_Notes.pdf" "MIT_Notes" 1750924783.6265 0
+["pdflatex"] 1750926015.68365 "c:/Users/DIR/OneDrive/General Relativity/MIT Lectures/MIT_Notes.tex" "MIT_Notes.pdf" "MIT_Notes" 1750926016.83295 0
   "C:/Users/DIR/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1746780346 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/DIR/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1735529708 24224103 b5234b621ca8ca4a0feaf6a0a82edf00 ""
   "E:/Users/DIR/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1256929440 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -178,10 +178,10 @@
   "E:/Users/DIR/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1700599895 10214 547fd4d29642cb7c80bf54b49d447f01 ""
   "E:/Users/DIR/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "E:/Users/DIR/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "MIT_Notes.aux" 1750924783 586 674bce86b8afab623fba9f2b68583b4d "pdflatex"
-  "MIT_Notes.out" 1750924783 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "MIT_Notes.tex" 1750924777 31019 977040e05d890387d48a79bf8a5967b2 ""
-  "c:/Users/DIR/OneDrive/General Relativity/MIT Lectures/MIT_Notes.tex" 1750924777 31019 977040e05d890387d48a79bf8a5967b2 ""
+  "MIT_Notes.aux" 1750926016 586 674bce86b8afab623fba9f2b68583b4d "pdflatex"
+  "MIT_Notes.out" 1750926016 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "MIT_Notes.tex" 1750926015 31023 14ffe9ae55fa1566bb6ff1b8cb6769fc ""
+  "c:/Users/DIR/OneDrive/General Relativity/MIT Lectures/MIT_Notes.tex" 1750926015 31023 14ffe9ae55fa1566bb6ff1b8cb6769fc ""
   (generated)
   "MIT_Notes.aux"
   "MIT_Notes.log"

@@ -24,3 +24,6 @@
 *.lyx
 *.gz.sum.synctex
 *.fdb_latexmk
+MIT_Notes.fdb_latexmk
+MIT_Notes.log
+MIT_Notes.synctex.gz
