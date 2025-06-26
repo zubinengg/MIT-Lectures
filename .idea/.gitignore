@@ -1,3 +1,51 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+# Ignore compiled output files
+*.o
+*.class
+*.pyc
+*.exe
+*.dll
+*.so
+
+# Ignore build-related directories
+build/
+dist/
+target/
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore temporary files
+*~
+#*#
+.#*
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Ignore dependency management directories
+node_modules/
+vendor/
+
+# Ignore sensitive information
+.env
+config.local.php
+secrets.yaml
+
+# Ignore editor swap files
+*.swp
+
+# Others
+*.gz
+*.aux
+*.out

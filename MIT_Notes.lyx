@@ -1,17 +1,23 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
+#LyX file created by tex2lyx 2.3
 \lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
-\origin unavailable
+\origin C:/Users/ravic/OneDrive/General Relativity/MIT Lectures/
 \textclass article
 \begin_preamble
 \usepackage{tikz}
-\usepackage{caption}
+\usepackage{nccmath}\usepackage{caption}
+
+
+
+
 \title{Using \LaTeX\ for MIT Lecture notes}
 \author{Ravi Chhawal}   
 \date{October 18, 2023}
 \pagenumbering{arabic}
+
+
 \end_preamble
 \use_default_options false
 \maintain_unincluded_children false
@@ -39,15 +45,15 @@
 \paperfontsize 11
 \spacing single
 \use_hyperref true
-\pdf_bookmarks false
-\pdf_bookmarksnumbered false
-\pdf_bookmarksopen false
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
 \pdf_bookmarksopenlevel 1
-\pdf_breaklinks false
-\pdf_pdfborder false
-\pdf_colorlinks false
+\pdf_breaklinks 0
+\pdf_pdfborder 0
+\pdf_colorlinks 0
 \pdf_backref section
-\pdf_pdfusetitle false
+\pdf_pdfusetitle 0
 \papersize a4paper
 \use_geometry true
 \use_package amsmath 2
@@ -55,7 +61,7 @@
 \use_package cancel 0
 \use_package esint 1
 \use_package mathdots 0
-\use_package mathtools 0
+\use_package mathtools 2
 \use_package mhchem 0
 \use_package stackrel 0
 \use_package stmaryrd 0
@@ -95,11 +101,11 @@
 \begin_body
 
 \begin_layout Standard
+
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
 
 \backslash
 maketitle
@@ -113,14 +119,18 @@ maketitle
 \begin_layout Enumerate
 
 \series bold
+
 \size largest
 Lecture 1
+\series default
+
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
 
 \series bold
+
 \size larger
 MIT Introduction to Geometric Viewpoint on physics
 \series default
@@ -137,11 +147,11 @@ Derive Einstein Field Equations
 \end_layout
 
 \begin_layout Enumerate
+
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
 {
 \end_layout
 
@@ -156,14 +166,12 @@ Spacetime:
 status collapsed
 
 \begin_layout Plain Layout
-
 }
 \end_layout
 
 \end_inset
 
- so what is SpaceTime?? from purely mathematical point of view...
- A 
+ so what is SpaceTime?? from purely mathematical point of view... A 
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -182,10 +190,13 @@ framecolor "black"
 backgroundcolor "blue!30"
 status open
 
+
 \begin_layout Plain Layout
 
 \series bold
 manifold
+\series default
+
 \end_layout
 
 \end_inset
@@ -209,10 +220,13 @@ framecolor "black"
 backgroundcolor "blue!30"
 status open
 
+
 \begin_layout Plain Layout
 
 \series bold
 endowed
+\series default
+
 \end_layout
 
 \end_inset
@@ -236,16 +250,18 @@ framecolor "black"
 backgroundcolor "blue!30"
 status open
 
+
 \begin_layout Plain Layout
 
 \series bold
 metric
+\series default
+
 \end_layout
 
 \end_inset
 
-.
- 
+. 
 \end_layout
 
 \begin_layout Enumerate
@@ -253,9 +269,7 @@ metric
 \series bold
 Manifold: 
 \series default
- A set of points with well-understood connectedness property.
- How we connect on region of space time into another region.(For More rigorous
- discussion insight please refer Carrol Book on General Relativity.) 
+ A set of points with well-understood connectedness property. How we connect on region of space time into another region.(For More rigorous discussion insight please refer Carrol Book on General Relativity.) 
 \end_layout
 
 \begin_layout Enumerate
@@ -263,10 +277,7 @@ Manifold:
 \series bold
 Space?????: 
 \series default
- Event When and where something happens.
- Essentially event is fundamental notion of a coordinate in space and time
- .
- 
+ Event When and where something happens. Essentially event is fundamental notion of a coordinate in space and time . 
 \end_layout
 
 \begin_layout Enumerate
@@ -274,9 +285,7 @@ Space?????:
 \series bold
 Labels:
 \series default
- i.e coordinates we attach to events,but the event itself is independent
- on the choice of coordinate system or labels.
- 
+ i.e coordinates we attach to events,but the event itself is independent on the choice of coordinate system or labels. 
 \end_layout
 
 \begin_layout Enumerate
@@ -284,11 +293,7 @@ Labels:
 \series bold
 Metric:
 \series default
- A notion of distance between events in manifold.
- Without this, manifold has no notion of distance encoded in it.
- The idea that the mathematical structure that tells me how far apart the
- two events are is intimately connected to the properties of gravity.
- 
+ A notion of distance between events in manifold. Without this, manifold has no notion of distance encoded in it. The idea that the mathematical structure that tells me how far apart the two events are is intimately connected to the properties of gravity. 
 \end_layout
 
 \begin_layout Enumerate
@@ -296,9 +301,7 @@ Metric:
 \series bold
 Special Relativity:
 \series default
- Simplest theory of spacetime, corresponds to general relativity where there
- is no gravity.
- 
+ Simplest theory of spacetime, corresponds to general relativity where there is no gravity. 
 \end_layout
 
 \begin_layout Enumerate
@@ -306,14 +309,11 @@ Special Relativity:
 \series bold
 Inertial Reference Frame:
 \series default
- A lattice of clocks and measuring rods that allows us to label-assign coordinat
-es to spacetime events.
- (
+ A lattice of clocks and measuring rods that allows us to label-assign coordinates to spacetime events. (
 \shape italic
 refer to the book of S Thorne on Gravitation
 \shape default
-) Is at rest with respect to someone who does not feel any force acting
- on it.
+) Is at rest with respect to someone who does not feel any force acting on it.
 \begin_inset Newline newline
 \end_inset
 
@@ -322,22 +322,15 @@ refer to the book of S Thorne on Gravitation
 
 \begin_deeper
 \begin_layout Enumerate
-This lattice moves freely through spacetime, No force acting in it, is not
- rotating.
- 
+This lattice moves freely through spacetime, No force acting in it, is not rotating. 
 \end_layout
 
 \begin_layout Enumerate
-Measuring rods are orthogonal wrt each other.
- i.e.
- orthogonal coordinate system.
- 
+Measuring rods are orthogonal wrt each other. i.e. orthogonal coordinate system. 
 \end_layout
 
 \begin_layout Enumerate
-Spacing system of measurement are uniformly ticked.
- Tick mark are uniformly spaced.
- 
+Spacing system of measurement are uniformly ticked. Tick mark are uniformly spaced. 
 \end_layout
 
 \begin_layout Enumerate
@@ -352,7 +345,6 @@ Clock Synchronized using
 status collapsed
 
 \begin_layout Plain Layout
-
 "
 \end_layout
 
@@ -363,7 +355,6 @@ Einstein Synchronization Procedure
 status collapsed
 
 \begin_layout Plain Layout
-
 "
 \end_layout
 
@@ -374,23 +365,23 @@ status collapsed
  
 \end_layout
 
+\end_deeper
+\begin_deeper
 \begin_layout Standard
-This procedure takes advantage of the fact that the speed of light is same
- for all frame of reference (observers).
- Speed of light is key invariant irrespective of any frame of reference.
- 
+This procedure takes advantage of the fact that the speed of light is same for all frame of reference (observers). Speed of light is key invariant irrespective of any frame of reference. 
 \begin_inset Float figure
 placement H
 wide false
 sideways false
 status open
 
-\begin_layout Plain Layout
+
+\begin_layout Standard
+
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
 
 \backslash
 centering
@@ -403,7 +394,6 @@ centering
 status collapsed
 
 \begin_layout Plain Layout
-
 
 \backslash
 begin{tikzpicture}[scale=2]
@@ -420,8 +410,7 @@ status collapsed
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
 draw[->,very thick] (0,0) -- (3,0)node[below] {
 \backslash
@@ -429,92 +418,79 @@ fontsize{19}{0}$ct$};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
 draw[->,very thick] (0,0) -- (0,3)node[left] {$t$};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
 draw[->,very thick,dotted] (0.5,0) -- (0.5,3)node[below] {$$};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
 draw[->,very thick,dotted] (2,0) -- (2,3)node[below] {$$};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
 draw[->,very thick,dotted] (.5,.5)--(1.25,1) node[below] {$$};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
 draw[->,very thick,dotted] (1.25,1) -- (2,1.5)node[below] {$$};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
 draw[->,very thick,dotted] (2,1.5)--(1.25,2) node[below] {$$};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
 draw[->,very thick,dotted] (1.25,2) -- (0.5,2.5)node[below] {$$};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      %
+					                  %
 \backslash
 draw[step=.5cm,gray,very thin] (0,-0) grid (2.9,2.9);
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
 filldraw (.5,0) circle (0.04)node[below=5pt]{Clock1};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
 filldraw (.5,0.5) circle (0.04)node[left=5pt]{ev1};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
 filldraw (2,0) circle (0.04)node[below=5pt]{Clock2};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
 filldraw (2,1.5) circle (0.04)node[right=15pt]{Reflected Back};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
 filldraw (0,.5) circle (0.04)node[left=5pt,font = {
 \backslash
@@ -524,8 +500,7 @@ bfseries}]{${t_{1,e}}$};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
 filldraw (0,2.5) circle (0.04)node[left=5pt,font = {
 \backslash
@@ -535,8 +510,7 @@ bfseries}]{${t_{1,r}}$};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
 filldraw (0,1.5) circle (0.04)node[left=5pt,font = {
 \backslash
@@ -546,8 +520,7 @@ bfseries}]{${t_{2,b}}$};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                  
+				                  
 \end_layout
 
 \end_inset
@@ -558,7 +531,6 @@ status collapsed
 
 \begin_layout Plain Layout
 
-
 \backslash
 end{tikzpicture}
 \end_layout
@@ -567,10 +539,6 @@ end{tikzpicture}
 
  
 \begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \end_inset
 
@@ -590,6 +558,7 @@ name "Fig.1"
 \end_layout
 
 \begin_layout Standard
+
 \begin_inset Formula $t_{1,e}$
 \end_inset
 
@@ -614,7 +583,7 @@ name "Fig.1"
 \end_inset
 
  
-\begin_inset Formula $t_{2,b}={\displaystyle {\frac{t_{1,e}+t_{1,r}}{2}}}$
+\begin_inset Formula $t_{2,b}=\displaystyle{\frac{t_{1,e}+t_{1,r}}{2}}$
 \end_inset
 
 
@@ -629,6 +598,7 @@ name "Fig.1"
 \begin_layout Enumerate
 
 \series bold
+
 \size larger
 Geometric Viewpoint on physics
 \series default
@@ -650,32 +620,28 @@ Units
 \series bold
 Units:
 \series default
- Choose basic unit of length to be the distance light travels in basic unit
- of time.
- 
+ Choose basic unit of length to be the distance light travels in basic unit of time. 
 \end_layout
 
 \begin_layout Itemize
+
 \begin_inset Formula $\Rightarrow$
 \end_inset
 
- If my basic unit of time is 1 sec then basic unit of length will be one
- light second 
+ If my basic unit of time is 1 sec then basic unit of length will be one light second 
 \end_layout
 
 \begin_layout Itemize
-Further if we take unit time to be one nano sec then corresponding unit
- length will be 1 foot 
+Further if we take unit time to be one nano sec then corresponding unit length will be 1 foot 
 \shape italic
-i.e.
- speed of light is 1 foot per nano sec
+i.e. speed of light is 1 foot per nano sec
 \shape default
  
 \end_layout
 
 \begin_layout Itemize
 we take speed of light to be one unit 
-\begin_inset Formula $c={\displaystyle {\frac{\text{1 light time unit}}{\text{time unit}}}}$
+\begin_inset Formula $c=\displaystyle{\frac{\text{1 light time unit}}{\text{time unit}}}$
 \end_inset
 
  
@@ -685,7 +651,10 @@ we take speed of light to be one unit
 This means that all velocities will be dimensionless 
 \end_layout
 
+\end_deeper
+\begin_deeper
 \begin_layout Standard
+
 \begin_inset VSpace 11pt
 \end_inset
 
@@ -696,12 +665,13 @@ wide false
 sideways false
 status open
 
-\begin_layout Plain Layout
+
+\begin_layout Standard
+
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-
 
 \backslash
 centering
@@ -714,7 +684,6 @@ centering
 status collapsed
 
 \begin_layout Plain Layout
-
 
 \backslash
 begin{tikzpicture}
@@ -731,8 +700,7 @@ status collapsed
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
 draw[very thick] (0,0)--node[below]{$
 \backslash
@@ -742,24 +710,19 @@ vec{X}$} ++ (7,0);
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
-node[outer sep=0pt,circle, fill,inner sep=1.5pt,label={[fill=white]left:$P$}]
- (P) at (0,0) {};
+node[outer sep=0pt,circle, fill,inner sep=1.5pt,label={[fill=white]left:$P$}] (P) at (0,0) {};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                      
+					                  
 \backslash
-node[outer sep=0pt,circle, fill,inner sep=1.5pt, label={[fill=white]right:$Q$}]
- (Q) at (7,0) {};
+node[outer sep=0pt,circle, fill,inner sep=1.5pt, label={[fill=white]right:$Q$}] (Q) at (7,0) {};
 \end_layout
 
 \begin_layout Plain Layout
-
-                                  
+				                  
 \end_layout
 
 \end_inset
@@ -770,7 +733,6 @@ status collapsed
 
 \begin_layout Plain Layout
 
-
 \backslash
 end{tikzpicture}
 \end_layout
@@ -779,10 +741,6 @@ end{tikzpicture}
 
 
 \begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \end_inset
 
@@ -802,7 +760,8 @@ name "Fig.2"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\Delta\vec{X}$
+
+\begin_inset Formula $\Delta \vec{X}$
 \end_inset
 
  is displacement in space time from point 
@@ -821,13 +780,13 @@ name "Fig.2"
 \begin_inset Formula $O$
 \end_inset
 
-.
- 
+. 
 \end_layout
 
 \begin_layout Standard
 \align center
-\begin_inset Formula $\Delta\vec{X}\mathop{=}\limits _{O}^{\boldsymbol{\cdot}}\left(t_{Q}-t_{P},X_{Q}-X_{P},Y_{Q}-Y_{P},Z_{Q}-Z_{p}\right)$
+
+\begin_inset Formula $\Delta \vec{X} \mathop = \limits^{\boldsymbol{\cdot}}_{O} \left(t_Q-t_P,X_Q-X_P,Y_Q-Y_P,Z_Q-Z_p\right)$
 \end_inset
 
 
@@ -843,7 +802,7 @@ The above equation can be written in compact notation i.e
 \end_inset
 
  
-\begin_inset Formula $\Delta\vec{X}\mathop{\rightarrow}\limits _{O}^{}\Delta{X^{\mu}}$
+\begin_inset Formula $\Delta \vec{X} \mathop \rightarrow \limits^{}_{O} \Delta {X^{\mu}}$
 \end_inset
 
 
@@ -851,23 +810,18 @@ The above equation can be written in compact notation i.e
 \end_inset
 
  where 
-\begin_inset Formula $\mu\in\left[t,x,y,z\right]$
+\begin_inset Formula $\mu \in \left[ t,x,y,z\right]$
 \end_inset
 
  or 
-\begin_inset Formula $\mu\in\left[0,1,2,3\right]$
+\begin_inset Formula $\mu \in \left[ 0,1,2,3\right]$
 \end_inset
 
 
 \begin_inset Newline newline
 \end_inset
 
- Usually 0 corresponds to time whereas 1,2,3 may denote other orthogonal
- coordinate system.
-\begin_inset Newline newline
-\end_inset
-
- 
+ Usually 0 corresponds to time whereas 1,2,3 may denote other orthogonal coordinate system. 
 \end_layout
 
 \end_deeper
@@ -889,7 +843,7 @@ Different Inertial Observer:
 \end_inset
 
  and 
-\begin_inset Formula $\Delta\vec{X}$
+\begin_inset Formula $\Delta \vec{X}$
 \end_inset
 
  are geometric objects exists independent of representation.
@@ -897,7 +851,7 @@ Different Inertial Observer:
 \end_inset
 
  
-\begin_inset Formula $\Delta\vec{X}\mathop{\rightarrow}\limits _{\overline{O}}^{}\Delta{X^{\overline{\mu}}}$
+\begin_inset Formula $\Delta \vec{X} \mathop \rightarrow \limits^{}_{\overline{O}} \Delta {X^{\overline{\mu}}}$
 \end_inset
 
 
@@ -912,20 +866,12 @@ Different Inertial Observer:
 \begin_inset Formula $\overline{O}$
 \end_inset
 
- components are related by lorentz transformation as given below:
+ components are related by Lorentz transformation as given below:
 \begin_inset Newline newline
 \end_inset
 
  
-\begin_inset Formula $\Delta{X^{\overline{0}}}=\gamma{\Delta X^{0}}-\gamma\ v\ {\Delta X^{1}}$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
- 
-\begin_inset Formula $\Delta{X^{\overline{1}}}=-\gamma\ v\ {\Delta X^{0}}+\gamma{\Delta X^{1}}$
+\begin_inset Formula $\Delta {X^{\overline{0}}}=\gamma {\Delta X^0} - \gamma\ v\ {\Delta X^1}$
 \end_inset
 
 
@@ -933,7 +879,7 @@ Different Inertial Observer:
 \end_inset
 
  
-\begin_inset Formula $\Delta{X^{\overline{2}}}={\Delta X^{2}}$
+\begin_inset Formula $\Delta {X^{\overline{1}}}=-\gamma\ v\ {\Delta X^0} + \gamma{\Delta X^1}$
 \end_inset
 
 
@@ -941,7 +887,15 @@ Different Inertial Observer:
 \end_inset
 
  
-\begin_inset Formula $\Delta{X^{\overline{3}}}={\Delta X^{3}}$
+\begin_inset Formula $\Delta {X^{\overline{2}}}={\Delta X^2}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\Delta {X^{\overline{3}}}={\Delta X^3}$
 \end_inset
 
 
@@ -965,7 +919,7 @@ Different Inertial Observer:
 \end_inset
 
  where 
-\begin_inset Formula $\gamma=\left[\frac{1}{\sqrt{1-v^{2}}}\right]$
+\begin_inset Formula $\gamma  = \left[\frac{1}{\sqrt{1-v^2}}\right]$
 \end_inset
 
 
@@ -985,33 +939,18 @@ Different Inertial Observer:
 \end_inset
 
  
-\begin_inset Formula 
-\[
-\Delta X^{\overline{\mu}}=\sum_{\nu=0}^{3}\Lambda_{\nu}^{\overline{\mu}}\ \Delta X^{\nu}
-\]
-
+\begin_inset Formula \[\Delta X^{\overline{\mu}}=\sum_{\nu = 0}^{3}\Lambda^{\overline{\mu}}_{\nu}\ \Delta X^{\nu}\]
 \end_inset
 
-or writing in simple way of Einstein Summation convention: Repeated indices
- in upstairs and downstairs positions are summed from 0 to 3.
- 
-\begin_inset Formula 
-\[
-\Delta X^{\overline{\mu}}=\Lambda_{\nu}^{\overline{\mu}}\ \Delta X^{\nu}
-\]
-
+or writing in simple way of Einstein Summation convention: Repeated indices in upstairs and downstairs positions are summed from 0 to 3. 
+\begin_inset Formula \[\Delta X^{\overline{\mu}}=\Lambda^{\overline{\mu}}_{\nu}\ \Delta X^{\nu}\]
 \end_inset
 
 
-\begin_inset Formula 
-\[
-\Lambda_{\nu}^{\overline{\mu}}=\frac{\delta X^{\overline{\mu}}}{\delta X^{\nu}}
-\]
-
+\begin_inset Formula \[\Lambda^{\overline{\mu}}_{\nu}=\frac{\delta X^{\overline{\mu}}}{ \delta X^{\nu}}\]
 \end_inset
 
-the above equation will be used in transformation from one reference frame
- to other.
+the above equation will be used in transformation from one reference frame to other.
 \begin_inset Newline newline
 \end_inset
 
@@ -1023,8 +962,7 @@ the above equation will be used in transformation from one reference frame
 \begin_inset Formula $\overline{\mu}$
 \end_inset
 
- is not the dummy index sometimes called free index.
- 
+ is not the dummy index sometimes called free index. 
 \end_layout
 
 \begin_layout Enumerate
@@ -1032,13 +970,12 @@ the above equation will be used in transformation from one reference frame
 \series bold
 Spacetime Vector:
 \series default
- Any quartet of numbers (i.e components) which transforms between Inertial
- reference Frame like displacement Vector.
+ Any quartet of numbers (i.e components) which transforms between Inertial reference Frame like displacement Vector.
 \begin_inset Newline newline
 \end_inset
 
  
-\begin_inset Formula $\vec{A}\mathop{=}\limits _{O}^{}\left(A^{0},A^{1},A^{2},A^{3}\right)\mathop{\rightarrow}\limits _{O}^{}{A^{\alpha}}$
+\begin_inset Formula $\vec{A} \mathop = \limits^{}_{O} \left(A^0,A^1,A^2,A^3\right)\mathop \rightarrow \limits^{}_{O} {A^{\alpha}}$
 \end_inset
 
 
@@ -1046,7 +983,7 @@ Spacetime Vector:
 \end_inset
 
  If 
-\begin_inset Formula $A^{\overline{\mu}}=\Lambda_{\alpha}^{\overline{\mu}}.A^{\alpha}$
+\begin_inset Formula $A^{\overline{\mu}}=\Lambda^{\overline{\mu}}_{\alpha}.A^{\alpha}$
 \end_inset
 
 
@@ -1109,8 +1046,7 @@ Spacetime Vector:
 \series bold
 Note:
 \series default
- the scaler quantity should be same for all frame of reference/observers.
- This means mass cannot be taken as scaler.
+ the scaler quantity should be same for all frame of reference/observers. This means mass cannot be taken as scaler.
 \end_layout
 
 \end_deeper
@@ -1118,6 +1054,7 @@ Note:
 \begin_layout Enumerate
 
 \series bold
+
 \size largest
 Lecture 2
 \series default
@@ -1138,24 +1075,16 @@ Introduction to Tensors
 \series bold
 Basis Vector:
 \series default
- In Frame 
+ In Frame of reference/observer '
 \begin_inset Formula $O$
 \end_inset
 
- we can write down 4 special vectors :
+' we can write down 4 special vectors :
 \begin_inset Newline newline
 \end_inset
 
  
-\begin_inset Formula $\vec{e}_{0}\mathop{=}\limits _{O}^{}(1,0,0,0)$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
- 
-\begin_inset Formula $\vec{e}_{1}\mathop{=}\limits _{O}^{}(0,1,0,0)$
+\begin_inset Formula $\vec e_0 \mathop = \limits^{}_{O} (1,0,0,0)$
 \end_inset
 
 
@@ -1163,7 +1092,7 @@ Basis Vector:
 \end_inset
 
  
-\begin_inset Formula $\vec{e}_{2}\mathop{=}\limits _{O}^{}(0,0,1,0)$
+\begin_inset Formula $\vec e_1 \mathop = \limits^{}_{O} (0,1,0,0)$
 \end_inset
 
 
@@ -1171,7 +1100,15 @@ Basis Vector:
 \end_inset
 
  
-\begin_inset Formula $\vec{e}_{3}\mathop{=}\limits _{O}(0,0,0,1)$
+\begin_inset Formula $\vec e_2 \mathop = \limits^{}_{O} (0,0,1,0)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec e_3 \mathop = \limits^{}_{O} (0,0,0,1)$
 \end_inset
 
 
@@ -1183,7 +1120,883 @@ Basis Vector:
 \end_inset
 
  
-\begin_inset Formula $(\vec{e}_{\alpha})^{\beta}\mathop{=}\limits _{O}\delta_{\alpha}^{\beta}$
+\begin_inset Formula $(\vec e_{\alpha})^{\beta}\mathop = \limits^{}_{O}  \delta^{\beta}_{\alpha}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\series bold
+Kronecker delta function
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ The utility of above set of equations is:
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{A}=A^{\alpha}.\vec{e}_{\alpha}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ The above equation represents actual equality and not representation symbol.
+\begin_inset Newline newline
+\end_inset
+
+ we shall now see how basis vectors transforms when reference frame changes. 
+\begin_inset Formula \begin{flalign*}
+			            \vec{A}=A^{\alpha}.\vec{e}_{\alpha} & =A^{\overline{\mu}}.\vec{e}_{\overline{\mu}}                                     & \\
+			                                                & =\left(\Lambda^{\overline{\mu}}_{\beta}A^{\beta} \right)\vec{e}_{\overline{\mu}}
+		            \end{flalign*}
+\end_inset
+
+
+\series bold
+Index Notation
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ Normally the above equation is represented in matrix notation. However as the index of matrix increases representation in matrix form is not desirable.
+\begin_inset Newline newline
+\end_inset
+
+ For ordinary multiplication the above equation can be reformatted as
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $=\left(A^{\beta} \Lambda^{\overline{\mu}}_{\beta} \right)\vec{e}_{\overline{\mu}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ In above equation 
+\begin_inset Formula $\beta$
+\end_inset
+
+ is dummy index and can be re-written as...
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $A^{\alpha}.\vec{e}_{\alpha} = A^{\beta}  \Lambda^{\overline{\mu}}_{\beta}\vec{e}_{\overline{\mu}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow A^{\alpha}.\vec{e}_{\alpha} = A^{\alpha}  \Lambda^{\overline{\mu}}_{\alpha}\vec{e}_{\overline{\mu}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow A^{\alpha}.\vec{e}_{\alpha} - A^{\alpha}  \Lambda^{\overline{\mu}}_{\alpha}\vec{e}_{\overline{\mu}}=0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow A^{\alpha}\left(\vec{e}_{\alpha} - \Lambda^{\overline{\mu}}_{\alpha}\vec{e}_{\overline{\mu}}\right)=0------------------(1)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Since 
+\begin_inset Formula $A^{\alpha}$
+\end_inset
+
+ is arbitrary... the above equation (1) will hold good or are valid only if
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{e}_{\alpha} = \Lambda^{\overline{\mu}}_{\alpha}\vec{e}_{\overline{\mu}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ since 
+\begin_inset Formula $A^{\overline{\mu}}=\Lambda^{\overline{\mu}}_{\alpha}.A^{\alpha}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ to get inverse Lorentz transformation just reverse the velocity components
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{e}_{\alpha} = \Lambda^{\overline{\mu}}_{\alpha}(\underset{\sim}{v})\vec{e}_{\overline{\mu}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{e}_{\overline{\mu}} = \Lambda^{\nu}_{\overline{\mu}}(-\underset{\sim}{v})\vec{e}_{\nu} $
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Using the transformation: 
+\begin_inset Formula $\vec{e}_{\alpha} = \Lambda^{\overline{\beta}}_{\alpha}(\underset{\sim}{v})\vec{e}_{\overline{\beta}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{e}_{\alpha} = \Lambda^{\overline{\beta}}_{\alpha}(\underset{\sim}{v})\left[\Lambda^{\gamma}_{\overline{\beta}}(-\underset{\sim}{v})\vec{e}_{\gamma}\right]$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{e}_{\alpha} = \left[\Lambda^{\overline{\beta}}_{\alpha}(\underset{\sim}{v})\, \Lambda^{\gamma}_{\overline{\beta}}(-\underset{\sim}{v})\right]\vec{e}_{\gamma}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ the above equation will hold good if the components under square brackets reduces to Identity matrix.
+\begin_inset Newline newline
+\end_inset
+
+ Kronecker delta function:
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\delta^{\alpha}_{\gamma}= \Lambda^{\overline{\beta}}_{\alpha}\, \Lambda^{\gamma}_{\overline{\beta}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ likewise:
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\delta^{\overline\alpha}_{\overline\gamma}= \Lambda^{\beta}_{\overline\alpha}\, \Lambda^{\overline\gamma}_{\beta}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+we shall now see operations which can be done with these 4 vectors (i.e 3 space vector and one time vector) 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Scaler Product:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ As per special relativity
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\Delta{S^2}=-\Delta{t^2}+\Delta{X^2}+\Delta{Y^2}+\Delta{Z^2}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ this is invariant: Same in all Lorentz frame of reference
+\begin_inset Newline newline
+\end_inset
+
+ the above equation can be written as
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\Delta{S^2} = \Delta \vec{X} \cdot \Delta\vec{X}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\mathop = \limits^{.}_{\theta}  -(\Delta{X_0})^2+(\Delta{X_1})^2+(\Delta{X_2})^2+(\Delta{X_3})^2$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ The question may arise that why the first component i.e time has negative sign where as other dimensions i.e spacial direction are +ve sign. The direction of time is one-sided. we cannot go back and forth in time. This is how the space time as we know it. It is part of built-in geometry of nature.
+\begin_inset Newline newline
+\end_inset
+
+ this has same transformation properties as displacement vector.
+\begin_inset Newline newline
+\end_inset
+
+ since 4 vectors have same transformation properties as 
+\begin_inset Formula $\Delta \vec{X}$
+\end_inset
+
+, we similarly define
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{A}\cdot\vec{A} \mathop = \limits^{.}_{\theta} - (A^0)^2 + (A^1)^2+ (A^2)^2+ (A^3)^2$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ because this transformation has same properties as displacement vector then this equation must be Lorentz invariant.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Terminology:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ If 
+\begin_inset Formula $\vec{A}\cdot\vec{A} < 0$
+\end_inset
+
+ then vector 
+\begin_inset Formula $\vec{A}$
+\end_inset
+
+ is 
+\series bold
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+time like
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+
+\series default
+.
+\begin_inset Newline newline
+\end_inset
+
+ If 
+\begin_inset Formula $\vec{A}\cdot\vec{A} > 0$
+\end_inset
+
+ then vector 
+\begin_inset Formula $\vec{A}$
+\end_inset
+
+ is 
+\series bold
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Space like
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+
+\series default
+.
+\begin_inset Newline newline
+\end_inset
+
+ If 
+\begin_inset Formula $\vec{A}\cdot\vec{A} = 0$
+\end_inset
+
+ then vector 
+\begin_inset Formula $\vec{A}$
+\end_inset
+
+ is 
+\series bold
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+light like or NULL
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+
+\series default
+.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+More General Notation
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ Scaler is a quantity which does not have any component
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{A}\cdot\vec{B} \mathop = \limits^{.}_{\theta} - A^0\cdot B^0 + A^1\cdot B^1 + A^2\cdot B^2 + A^3\cdot B^3$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ This quantity must also be an invariant. This can be easily proved by using 
+\begin_inset Formula $\vec{C}=\vec{A}+\vec{B}$
+\end_inset
+
+, since 
+\begin_inset Formula $\vec{C}\cdot\vec{C}$
+\end_inset
+
+ is invariant
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $ \vec{A}\cdot\vec{B}$
+\end_inset
+
+ is also Lorentz invariant.
+\begin_inset Newline newline
+\end_inset
+
+ using 
+\begin_inset Formula $\vec{A}$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{B}$
+\end_inset
+
+ as component of basis vectors we have 
+\begin_inset Formula \begin{align*}
+				                  \vec{A}\cdot\vec{B} & = (A^{\alpha}\vec{e_{\alpha}})\cdot(B^{\beta}\vec{e_{\beta}}) \\
+				                                      & = A^{\alpha}.B^{\beta} (\vec{e_{\alpha}}.\vec{e_{\beta}})     \\
+				                                      & = A^{\alpha}.B^{\beta} {\displaystyle{\eta_{\alpha\beta}}}
+			                  \end{align*}
+\end_inset
+
+here 
+\begin_inset Formula ${\displaystyle{\eta_{\alpha\beta}}}$
+\end_inset
+
+ is two index tensor 
+\begin_inset Formula \[ {\displaystyle{\eta_{\alpha\beta}}} = \begin{pmatrix}
+					                  -1 & 0 & 0 & 0 \\
+					                  0  & 1 & 0 & 0 \\
+					                  0  & 0 & 1 & 0 \\
+					                  0  & 0 & 0 & 1 \\\end{pmatrix} \rightarrow the\ "metric"\ Tensor \]
+\end_inset
+
+
+\begin_inset Formula $\Delta{S^2} = \Delta \vec{X} \cdot \Delta\vec{X}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow \Delta{S^2} = {\displaystyle{\eta_{\alpha\beta}}} \Delta X^{\alpha} \Delta X^{\beta}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ we will use 
+\begin_inset Formula $\eta$
+\end_inset
+
+ for transformation in Cartesian coordinates
+\begin_inset Newline newline
+\end_inset
+
+ rewriting the above equations in form of differentials we have
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $d{S^2} = d \vec{X} \cdot d\vec{X}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow d {S^2} = {\displaystyle{\eta_{\alpha\beta}}}\ d X^{\alpha}\ d X^{\beta}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+when the equation below holds true: i.e
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $d\vec{X}= dX^{\alpha}\ \vec{e}_{\alpha}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ then we say that 
+\begin_inset Formula $\vec{e}_{\alpha}$
+\end_inset
+
+ is 
+\series bold
+coordinate basis
+\series default
+ vector. 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Curvilinear coordinates
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $d\underset{\sim}{X} = dX^i \vec{e_i}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $= d{r}\ \vec{e_r} + d\theta\ \vec{e_{\theta}} +d\phi\ \vec{e_{\phi}} $
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $= d{r}\ \vec{e}_{\hat{r}} + d\theta\ r \vec{e}_{\hat{\theta}} +d\phi\ r \sin\theta\ \vec{e}_{\Hat{\phi}} $
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\begin_inset Formula $\vec{e}_{\Hat{i}}$
+\end_inset
+
+ is orthogonal basis if 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{e}_{\Hat{i}}\cdot \vec{e}_{\Hat{j}} = \delta_{ij}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Kronecker delta function.
+\begin_inset Newline newline
+\end_inset
+
+ for Curvilinear coordinates as defined above this is not the case as :
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{e}_{\hat{r}} \cdot \vec{e}_{\hat{r}} = 1 $
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{e}_{\hat{\theta}} \cdot \vec{e}_{\hat{\theta}} = r^2 $
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{e}_{\hat{\phi}} \cdot \vec{e}_{\hat{\phi}} = r^2.\sin^2\theta $
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ thus the metric tensor 
+\begin_inset Formula ${\displaystyle{\eta_{\alpha\beta}}}$
+\end_inset
+
+ will change for Curvilinear coordinate system as we are not dealing with orthonormal basis vectors.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Important 4 vectors
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{U}\equiv  \dfrac{d\vec{X}}{dT}$
+\end_inset
+
+ this has 4 velocity components..
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $dT$
+\end_inset
+
+ is time interval as measured along the trajectory of the observer 
+\begin_inset Newline newline
+\end_inset
+
+ Interval of 
+\series bold
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+proper time
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ for observer seeing an object going by with a constant velocity. he will observer 4 velocity components given by :
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\mathop = \limits^{o}_{} (\gamma,\gamma \underset{\sim}{V})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ where 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ is Lorentz factor given by 
+\begin_inset Formula $\dfrac{1}{\sqrt{1-v^2}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ In rest frame of the observer 
+\begin_inset Formula $\vec{u} = (1,\underset{\sim}{0})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ i.e person is standing still but moving through time.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+4 Momentum
+\series default
+ components
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{P} = m \vec{u}$
+\end_inset
+
+ where 
+\begin_inset Formula $m$
+\end_inset
+
+ is 
+\series bold
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+rest mass
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+
+\series default
+ of the object
+\begin_inset Newline newline
+\end_inset
+
+ External observer will see two components
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\mathop = \limits^{\cdot}_{} (E,P)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ scaler product 
+\begin_inset Formula $\vec{u} \cdot \vec{u} = -\gamma^2 + \gamma^2.v^2 = -1$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ a) if 
+\begin_inset Formula $v=0$
+\end_inset
+
+ then 
+\begin_inset Formula $\gamma=1$
+\end_inset
+
+ the above equation will hold good/true.
+\begin_inset Newline newline
+\end_inset
+
+ b) 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ is frame invariant quantity this means transformation equations shall hold good for any frame of reference we shall use this property to solve complex equations.
+\begin_inset Newline newline
+\end_inset
+
+ c) Now for 4-Momentum components just multiply 4-velocity components times mass of the object.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{p} \cdot \vec{p}=m^2\ \vec{u} \cdot \vec{u} = -m^2$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Since the above equation is also related to energy and Momentum we have
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $=-E^2 + \lvert P \rvert^2$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ or 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $E^2 - \lvert P \rvert^2 = m^2$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ in the above equation we have taken velocity of light in free space 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+c=1
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ as unit length...a more general form will be....
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $E^2 -  P^2 \cdot c^2= m^2\cdot c^4$
 \end_inset
 
 
@@ -1193,9 +2006,644 @@ Basis Vector:
  
 \end_layout
 
+\begin_layout Enumerate
+
+\series bold
+Conservation of 4-Momentum
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+we have N particles interacting, then we have 
+\begin_inset Formula \[\vec{P}_{TOT}= \sum_{i=0}^{N}\vec{p}_{i}\]
+\end_inset
+
+the total Momentum is conserved in this interaction. Algebra often simplifies by choosing a convenient frame of reference...
+\begin_inset Newline newline
+\end_inset
+
+ i.e. 
+\series bold
+Center of Momentum
+\series default
+ frame...
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula \[\vec{P}_{TOT} \mathop = \limits^{\cdot}_{CoM} (E,\underset{\sim}{0})\]
+\end_inset
+
+Zero special momentum.......
+\begin_inset Newline newline
+\end_inset
+
+ this is specially relevant/useful of we are studying particle collision
+\begin_inset Newline newline
+\end_inset
+
+ very useful results follows from invariance of scaler product...
+\begin_inset Newline newline
+\end_inset
+
+ let 
+\begin_inset Formula $\vec{p}$
+\end_inset
+
+ be the 4-Momentum of the particle A
+\begin_inset Newline newline
+\end_inset
+
+ let 
+\begin_inset Formula $\vec{u}$
+\end_inset
+
+ be the 4-velocity of observer 
+\begin_inset Formula $O$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Now the question arise that what does 
+\begin_inset Formula $O$
+\end_inset
+
+ measure as Energy of particle A.
+\begin_inset Newline newline
+\end_inset
+
+ representing 
+\begin_inset Formula $\vec{p}\ as \ (E,P)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ so, 
+\begin_inset Formula $\vec{p} \mathop = \limits^{\cdot}_{O} (E_{O},\vec{P}_{O})$
+\end_inset
+
+ momentum as seen by observer O.
+\begin_inset Newline newline
+\end_inset
+
+ but velocity 
+\begin_inset Formula $u$
+\end_inset
+
+ in O's reference frame.. 
+\begin_inset Formula $\vec{u}\mathop = \limits^{\cdot}_{O}(1,\underset{\sim}{0})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ this means that if we go into O's inertial reference frame and take dot product of two vectors we have..
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{p}\cdot\vec{u} = - E_o$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ or
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\boxed{E_o = - \vec{p}\cdot\vec{u}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ the above scaler product is invariant... it remains same irrespective of any frame of reference...
+\begin_inset Newline newline
+\end_inset
+
+ this invariance guarantees that the equation used for calculating scaler product of 
+\begin_inset Formula $\vec{p}\cdot\vec{u}$
+\end_inset
+
+ will holds good/is invariant for any frame of reference 
+\begin_inset Newline newline
+\end_inset
+
+ another important 4-vector component is 
+\begin_inset Formula $\vec{a}$
+\end_inset
+
+ i.e.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{a}=\dfrac{d\vec{u}}{d\tau}$
+\end_inset
+
+ Always the case that 
+\begin_inset Formula $\vec{a}\cdot\vec{u}=0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{u}\cdot\vec{u}=-1$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow\ \dfrac{d(\vec{u}\cdot\vec{u})}{d\tau}=2\vec{u}\cdot\vec{a}=0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Tensors are more generally:
+\begin_inset Newline newline
+\end_inset
+
+ A tensor of type 
+\begin_inset Formula $\begin{pmatrix}
+					                  O \\
+					                  N
+				                  \end{pmatrix}$
+\end_inset
+
+ as a function or mapping of N 4-Vectors into Lorentz invariant scaler which is linear in each of its N arguments.... 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Recap of Inner Product
+\series default
+ 
+\begin_inset Formula \begin{align*}
+				                  \vec{A}\cdot\vec{B} & =-A^0B^0+A^1B^1+A^2B^2+A^3B^3                        \\
+				                                      & =A^\alpha B^\beta \vec{e}_\alpha \cdot \vec{e}_\beta \\
+				                                      & =\eta_{\alpha\beta} A^\alpha B^\beta=a
+			                  \end{align*}
+\end_inset
+
+here 
+\begin_inset Formula $\eta_{\alpha\beta}\equiv\vec{e}_\alpha \cdot \vec{e}_\beta$
+\end_inset
+
+ is the 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{metric}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+underline{tensor}
+\end_layout
+
+\end_inset
+
+ of special relativity of rectilinear (Cartesian) coordinates system.
+\begin_inset Newline newline
+\end_inset
+
+ The negative component of above equation i.e 
+\begin_inset Formula $-A^0B^0$
+\end_inset
+
+ are time like components..
+\begin_inset Newline newline
+\end_inset
+
+ for Cartesian system 
+\begin_inset Formula $\eta_{\alpha\beta}=\text{diag}(-1,1,1,1)$
+\end_inset
+
+ metric tensor...
+\begin_inset Newline newline
+\end_inset
+
+ if 4D-vector is multiplied by a scaler say 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ then
+\begin_inset Newline newline
+\end_inset
+
+ 
+\series bold
+Scaler multiplication
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\gamma \vec{A} \cdot \vec{B}  = \eta_{\alpha\beta}(\gamma A^\alpha) B^\beta= \gamma\ a$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\series bold
+DoT Product with sum of two vectors
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{A}\cdot (\vec{B}+\vec{C}) = \vec{A}\cdot \vec{B} + \vec{A}\cdot \vec{C} $
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula \begin{flalign*}
+				                  \vec{A}\cdot (\vec{B}+\vec{C}) & = \vec{A}\cdot \vec{B} + \vec{A}\cdot \vec{C}                                \\
+				                                                 & =\eta_{\alpha \beta} A^\alpha B^\beta + \eta_{\alpha \beta} A^\alpha C^\beta
+			                  \end{flalign*}
+\end_inset
+
+Alternatively we can define tensor as a two slot mathematical machine:
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\overline{\overline{\eta}}\ (\vec{A},\vec{B}) \equiv \vec{A}\cdot\vec{B} = \eta_{\alpha \beta} A^\alpha B^\beta = a$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\vec{A}$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{B}$
+\end_inset
+
+ are frame independent geometric objects and 
+\begin_inset Formula $a$
+\end_inset
+
+ are frame independent scaler and therefore a tensor must be frame independent object as well...
+\begin_inset Newline newline
+\end_inset
+
+ Put geometric objects into a slots and get geometric objects out, tensor must be frame independent geometric object as well...
+\begin_inset Newline newline
+\end_inset
+
+ Different representation of Tensors are being used by different observers...we need to get components used by a particular observers....hence we use tensor to plug basis vector into its slots...
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\overline{\overline{\eta}}\; (\vec{e}_\alpha \cdot\vec{e}_\beta) \equiv \eta_{\alpha \beta}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ for other frame of reference or observer
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\overline{\overline{\eta}}\; (\vec{e}_{\overline{\alpha}} \cdot\vec{e}_{\overline{\beta}}) \equiv \eta_{\overline{\alpha}\, \overline{\beta}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\eta_{\overline{\alpha}\overline{\beta}} = \overline{\overline{\eta}}\; (\Lambda^{\mu}_{\overline{\alpha}}\; \vec{e}_\mu , \Lambda^{\nu}_{\overline{\beta}}\; \vec{e}_\nu ) $
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ where 
+\begin_inset Formula $\vec{e}_\mu$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{e}_\nu$
+\end_inset
+
+ are the basis vector in barred frame of reference...
+\begin_inset Newline newline
+\end_inset
+
+ now because of linearity we can rewrite the above equation as...
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $=\Lambda^{\mu}_{\overline{\alpha}}\; \Lambda^{\nu}_{\overline{\beta}}\; \overline{\overline{\eta}}\; ( \vec{e}_\mu ,  \vec{e}_\nu ) $
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\boxed{\eta_{\overline{\alpha}\overline{\beta}} =\Lambda^{\mu}_{\overline{\alpha}}\; \Lambda^{\nu}_{\overline{\beta}}\; \eta_{\mu \nu}} $
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ Note: 
+\begin_inset Formula $ \eta_{\mu \nu}$
+\end_inset
+
+ = diag(-1,1,1,1) in all frames
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\begin_inset Formula $\begin{pmatrix}
+					                  O \\
+					                  1
+				                  \end{pmatrix}$
+\end_inset
+
+ Tensors: Special subsets 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+1-form
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ also called dual vectors...
+\begin_inset Newline newline
+\end_inset
+
+ 1-form is a mapping from a single vector o a Lorentz invariant scaler...
+\begin_inset Newline newline
+\end_inset
+
+ let 
+\begin_inset Formula $\overset{\sim}{p} (\vec{A})$
+\end_inset
+
+ = some scaler
+\begin_inset Newline newline
+\end_inset
+
+ Components comes from putting in basis vectors
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\overset{\sim}{p} (\vec{e}_{\alpha}) = p_{\alpha}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ i.e.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\overset{\sim}{p} (\vec{A}) = \overset{\sim}{p} ( A^{\alpha} \vec{e}_{\alpha})\\ =  A^{\alpha} \overset{\sim}{p} ( \vec{e}_{\alpha})\\ =  A^{\alpha} p_{\alpha}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now, how to get components transformation in different frames of reference...
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $p_{\overline{\alpha}} = \Lambda^{\mu}_{\overline{\alpha}} p_{\mu}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ we need basis vectors of 1-forms: want a set of geometric objects
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\{ \tilde{\omega}^\alpha\}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ such that 
+\begin_inset Formula $ \tilde{p}= p_\alpha\; \tilde{\omega}^\alpha$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ since we know that 
+\begin_inset Formula $p_\alpha = \widetilde{p}\; (\widetilde{e}_\alpha)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ with contraction 
+\begin_inset Formula $p_\alpha A^\alpha = \widetilde{p} (\widetilde{A})$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\widetilde{p} (\widetilde{A}) = P_\beta \tilde{\omega}^\beta ( A^\alpha \tilde{e}_\alpha )$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\widetilde{p} (\widetilde{A}) = P_\beta A^\alpha \tilde{\omega}^\beta ( \tilde{e}_\alpha )$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ the above equation will hold good if 
+\begin_inset Formula $\tilde{\omega}^\beta ( \tilde{e}_\alpha ) = {\delta_\alpha}^\beta $
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ this will leads to (for example) a set of basis objects
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\tilde{\omega}^0 \mathop = \limits^{\cdot}_{O} (1,0,0,0)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $\tilde{\omega}^1 \mathop = \limits^{\cdot}_{O} (0,1,0,0)$
+\end_inset
+
+ etc...
+\begin_inset Newline newline
+\end_inset
+
+ the above expression looks a lot like basis vectors...
+\begin_inset Newline newline
+\end_inset
+
+ but enter is a 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+dual way
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ akin to row vectors or column vectors....
+\begin_inset Newline newline
+\end_inset
+
+ Mathematically 
+\begin_inset Formula \[ \sum_{\mu=0}^{3}A^\mu B^\mu \]
+\end_inset
+
+plays no role in physics involved...as this is not related to underline invariance structure of Lorentz transformation...
+\begin_inset Newline newline
+\end_inset
+
+ however, 
+\begin_inset Formula \[ \sum_{\mu=0}^{3} p_\mu A^\mu\]
+\end_inset
+
+is important..
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Quantum Waveform
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Nice...:-) done 12-03-2024
+\begin_inset Newline newline
+\end_inset
+
+ Hi Addie
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \noindent
+
 \begin_inset CommandInset line
 LatexCommand rule
 width "100text%"
@@ -1206,8 +2654,8 @@ height "1pt"
  
 \begin_inset CommandInset href
 LatexCommand href
-name "text"
-target "https://youtu.be/iRVfaR3N5K4?t=3847"
+name ""
+target "https://youtu.be/TiHHz3sKDbY?list=PL6Q1107aDr%SgQ1DBEugejXLfQX76hfSnX&t=1188}{text} Draw.io \end{document}  %% https://youtu.be/H6eR3sG524M?list=PL6Q1107aDrSgQ1DBEugejXLfQX76hfSnX&t=258 "
 literal "false"
 
 \end_inset
